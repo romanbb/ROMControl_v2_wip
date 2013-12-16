@@ -41,6 +41,11 @@ public class DeveloperPreference extends LinearLayout {
         this(context, attrs, 0);
     }
 
+    @Override
+    public boolean isInEditMode() {
+        return true;
+    }
+
     public DeveloperPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 

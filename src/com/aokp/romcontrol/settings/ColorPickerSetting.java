@@ -47,6 +47,11 @@ public class ColorPickerSetting extends BaseSetting implements
 
     private EditText mEditText;
 
+    @Override
+    public boolean isInEditMode() {
+        return true;
+    }
+
     public ColorPickerSetting(Context context) {
         this(context, null);
     }
