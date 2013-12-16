@@ -6,23 +6,53 @@ import android.content.res.Resources.NotFoundException;
 import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.aokp.romcontrol.R;
 
 /**
- * Created by roman on 12/15/13.
+ * Base class from which all other layouts inherit from.
+ * <p/>
+ * <ul><b>Supported attributes (all are optional)</b>
+ * <li>android:key - the key to look up the value
+ * <li>android:title - a @string reference to display as the title
+ * <li>android:summary - a @string reference to display as the summary
+ * <li>android:defaultValue - a string (NOT a reference) which is stored as the default value.
+ * <li>custom:table - refers to which table the setting key/value are referenced in. Currently only two tables are
+ * supported: "aokp", and "system". Defaults to "aokp" if none is specified.
+ * </ul>
+ * <p/>
+ * Sub classes' implementation of setValue() should eventually call {@link #setValue(String)},
+ * which will actually set the key and call the registered listener, if one exists.
+ * <p/>
+ *
+ * @see OnSettingChangedListener OnSettingChangedListener
+ * an interface which will allow the callback receiver to see any changes in this setting.
  */
-public abstract class BaseSetting extends FrameLayout {
+public class BaseSetting extends FrameLayout {
 
     public static final String NAMESPACE_ANDROID = "http://schemas.android.com/apk/res/android";
     public static final String NAMESPACE_RC = "http://schemas.android.com/apk/res/com.aokp.romcontrol";
 
-    protected String aKey, aTable, aTitle, aSummary, aDefaultValue;
+    // values obtained from attributes
+    private String aKey, aTable, aTitle, aSummary, aDefaultValue;
 
     protected TextView mTitleTextView, mDescriptionTextView;
-    protected LinearLayout mRootView;
+
+    private OnSettingChangedListener mOnSettingChangedListener;
+
+    /**
+     * Sub classes should attach their inflated views to this view.
+     */
+    protected ViewGroup mRootView;
+
+    /**
+     * Interface to allow classes to receive callbacks when the user has modified the value of the setting.
+     */
+    public interface OnSettingChangedListener {
+        public void onSettingChanged(String table, String key, String oldValue, String value);
+    }
 
     public BaseSetting(Context context) {
         this(context, null);
@@ -36,53 +66,57 @@ public abstract class BaseSetting extends FrameLayout {
         super(context, attrs, defStyle);
 
         if (attrs != null) {
-            Resources r = context.getResources();
             aKey = attrs.getAttributeValue(NAMESPACE_ANDROID, "key");
+            aDefaultValue = attrs.getAttributeValue(NAMESPACE_ANDROID, "defaultValue");
 
+            Resources r = context.getResources();
             aTitle = readAttrStringResource(r, attrs.getAttributeResourceValue(NAMESPACE_ANDROID, "title", 0));
             aSummary = readAttrStringResource(r, attrs.getAttributeResourceValue(NAMESPACE_ANDROID, "summary", 0));
 
-            aDefaultValue = attrs.getAttributeValue(NAMESPACE_ANDROID, "defaultValue");
             aTable = attrs.getAttributeValue(NAMESPACE_RC, "table");
-
             if (aTable == null) {
                 aTable = "aokp";
             }
-//            TypedArray typedArray = null;
-//            try {
-//                typedArray = context.obtainStyledAttributes(attrs, R.styleable.BaseSetting);
-//                String tempTable = typedArray.getString(R.styleable.BaseSetting_table);
-//
-//            } finally {
-//                if (typedArray != null) {
-//                    typedArray.recycle();
-//                }
-//            }
         }
 
-        mRootView = (LinearLayout) View.inflate(context, R.layout.setting_base, null);
+        mRootView = (ViewGroup) View.inflate(context, R.layout.setting_base, null);
         mTitleTextView = (TextView) mRootView.findViewById(R.id.title);
         mDescriptionTextView = (TextView) mRootView.findViewById(R.id.summary);
+
+        setTitle(aTitle);
+        setSummary(aSummary);
     }
 
-    public static String readAttrStringResource(Resources r, int resource) {
-        try {
-            String string = r.getString(resource);
-            return string;
-        } catch (NotFoundException e) {
-            return null;
-        }
-    }
-
+    /**
+     * @param s the new setting to apply to this table/key. Null strings are considered empty strings.
+     * @throws UnsupportedOperationException if no key is set.
+     */
     protected final void setValue(String s) {
+        if (aKey == null) {
+            throw new UnsupportedOperationException("No key to assign the value to!");
+        }
+        if (s == null) {
+            s = "";
+        }
+        String currentVal = getValue();
         if ("system".equalsIgnoreCase(getTable())) {
-            // return Settings.System.putString(getContext().getContentResolver(), s);
+            //Settings.System.putString(getContext().getContentResolver(), s);
         } else {
-            //  return Settings.AOKP.put(getContext().getContentResolver(), s);
+            //Settings.AOKP.put(getContext().getContentResolver(), s);
+        }
+        if (mOnSettingChangedListener != null) {
+            mOnSettingChangedListener.onSettingChanged(getTable(), getKey(), currentVal, s);
         }
     }
 
+    /**
+     * @return the string value of the setting.
+     * @throws UnsupportedOperationException if no key was supplied
+     */
     protected String getValue() {
+        if (aKey == null) {
+            throw new UnsupportedOperationException("No value to get!");
+        }
         if ("system".equalsIgnoreCase(getTable())) {
             return Settings.System.getString(getContext().getContentResolver(), getKey());
         } else {
@@ -91,12 +125,75 @@ public abstract class BaseSetting extends FrameLayout {
         return null;
     }
 
+    /**
+     * @return the table which the setting will be saved to. Currently only 'aokp' and 'system' are supported
+     */
     protected final String getTable() {
         return aTable;
     }
 
+    /**
+     * @return the key value which this preference is supposed to represent
+     */
     protected final String getKey() {
         return aKey;
+    }
+
+    /**
+     * @return returns the supplied default value. null if none was provided.
+     */
+    protected final String getDefaultValue() {
+        return aDefaultValue;
+    }
+
+    /**
+     * @return returns the current summary;
+     */
+    protected final String getSummary() {
+        return aSummary;
+    }
+
+    protected void setSummary(String summary) {
+        aSummary = summary;
+        if (mDescriptionTextView != null) {
+            mDescriptionTextView.setText(summary);
+            if (summary == null) {
+                mDescriptionTextView.setVisibility(View.GONE);
+            } else {
+                mDescriptionTextView.setVisibility(View.VISIBLE);
+            }
+        }
+    }
+
+    protected final String getTitle() {
+        return aTitle;
+    }
+
+    protected void setTitle(String title) {
+        aTitle = title;
+        if (mTitleTextView != null) {
+            mTitleTextView.setText(title);
+        }
+    }
+
+    public void setOnSettingChangedListener(OnSettingChangedListener listener) {
+        this.mOnSettingChangedListener = listener;
+    }
+
+    /**
+     * Helper method which attempts to read in a String resource, and get its value.
+     *
+     * @param r        Resources from which to do the lookup
+     * @param resource R.string identifier
+     * @return the looked-up String, or null if it wasn't found
+     */
+    public static String readAttrStringResource(Resources r, int resource) {
+        try {
+            String string = r.getString(resource);
+            return string;
+        } catch (NotFoundException e) {
+            return null;
+        }
     }
 
 }

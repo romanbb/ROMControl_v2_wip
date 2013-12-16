@@ -31,9 +31,6 @@ import net.margaritov.preference.colorpicker.ColorPickerDialog;
 import net.margaritov.preference.colorpicker.ColorPickerDialog.OnColorChangedListener;
 
 /**
- * A preference type that allows a user to choose a time
- *
- * @author Sergey Margaritov
  */
 public class ColorPickerSetting extends BaseSetting implements
         OnClickListener, OnColorChangedListener {

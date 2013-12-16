@@ -9,7 +9,12 @@ import android.widget.CheckBox;
 import com.aokp.romcontrol.R;
 
 /**
- * Created by roman on 12/15/13.
+ * Setting toggle which represents a boolean value
+ * <p/>
+ * <ul><b>Supported attributes (in addition to {@link BaseSetting} attributes)</b>
+ * <li>other:descriptionOn - a @string reference, which will be set as the summary when enabled.
+ * <li>other:descriptionOff - a @string reference, which will be set as the summary when disabled.
+ * </ul>
  */
 public class CheckboxSetting extends BaseSetting implements OnClickListener {
 
@@ -37,7 +42,7 @@ public class CheckboxSetting extends BaseSetting implements OnClickListener {
             try {
                 typedArray = context.obtainStyledAttributes(attrs, R.styleable.CheckboxSetting);
 
-                mChecked = Boolean.parseBoolean(aDefaultValue);
+                mChecked = Boolean.parseBoolean(getDefaultValue());
                 aDescriptionOn = typedArray.getString(R.styleable.CheckboxSetting_descriptionOn);
                 aDescriptionOff = typedArray.getString(R.styleable.CheckboxSetting_descriptionOff);
             } finally {
@@ -57,24 +62,25 @@ public class CheckboxSetting extends BaseSetting implements OnClickListener {
         /**
          * Setup initial logic
          */
-        mTitleTextView.setText(aTitle);
         updateSummary();
-        mCheckBox.setChecked(isChecked());
+
+        // The default value of a boolean setting is usually stored as 1 or 0, but support "true" and "false" values
+        if (getDefaultValue() != null) {
+            mChecked = Boolean.valueOf(getDefaultValue()) || getDefaultValue().equals("1");
+        }
+        mCheckBox.setChecked(mChecked);
 
         setOnClickListener(this);
         setFocusable(true);
     }
 
     private void updateSummary() {
-        if (mDescriptionTextView != null) {
-            if (aSummary == null) {
-                if (aDescriptionOff != null && aDescriptionOn != null) {
-                    mDescriptionTextView.setText(isChecked() ? aDescriptionOn : aDescriptionOff);
-                } else {
-                    mDescriptionTextView.setVisibility(View.GONE);
-                }
+        if (getSummary() == null) {
+            // no summary is set, so let's use the descriptions if we can
+            if (aDescriptionOff != null || aDescriptionOn != null) {
+                setSummary(isChecked() ? aDescriptionOn : aDescriptionOff);
             } else {
-                mDescriptionTextView.setText(aSummary);
+                setSummary(null);
             }
         }
     }
