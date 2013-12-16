@@ -1,4 +1,4 @@
-package urlimageviewhelper;
+package com.koushikdutta.urlimageviewhelper;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

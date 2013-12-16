@@ -1,4 +1,4 @@
-package urlimageviewhelper;
+package com.koushikdutta.urlimageviewhelper;
 
 public interface Constants {
 

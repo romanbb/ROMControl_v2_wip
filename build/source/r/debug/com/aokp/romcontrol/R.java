@@ -9,14 +9,6 @@ package com.aokp.romcontrol;
 
 public final class R {
     public static final class attr {
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int checkDefaultValue=0x7f010007;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -25,7 +17,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPickerDefaultValue=0x7f01000a;
+        public static final int colorPickerDefaultValue=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -33,7 +25,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPickerShowAlphaSlider=0x7f01000b;
+        public static final int colorPickerShowAlphaSlider=0x7f010004;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -41,7 +33,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPickerSummary=0x7f010009;
+        public static final int descriptionOff=0x7f010002;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -49,7 +41,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPickerTitle=0x7f010008;
+        public static final int descriptionOn=0x7f010001;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -57,7 +49,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultValue=0x7f010004;
+        public static final int donateLink=0x7f010007;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -65,7 +57,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int descriptionOff=0x7f010006;
+        public static final int emailDev=0x7f010009;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -73,7 +65,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int descriptionOn=0x7f010005;
+        public static final int githubLink=0x7f010008;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -81,7 +73,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int donateLink=0x7f01000e;
+        public static final int nameDev=0x7f010006;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -89,7 +81,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int emailDev=0x7f010010;
+        public static final int table=0x7f010000;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -97,55 +89,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int githubLink=0x7f01000f;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int key=0x7f010000;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int nameDev=0x7f01000d;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int summary=0x7f010003;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int table=0x7f010001;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int title=0x7f010002;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int twitterHandle=0x7f01000c;
+        public static final int twitterHandle=0x7f010005;
     }
     public static final class color {
         public static final int setting_separator=0x7f040000;
@@ -259,8 +203,9 @@ containing a value of this type.
         public static final int fragment_navigation_drawer=0x7f030005;
         public static final int setting_base=0x7f030006;
         public static final int setting_base_include=0x7f030007;
-        public static final int setting_checkbox=0x7f030008;
-        public static final int setting_colorpicker=0x7f030009;
+        public static final int setting_category=0x7f030008;
+        public static final int setting_checkbox=0x7f030009;
+        public static final int setting_colorpicker=0x7f03000a;
     }
     public static final class menu {
         public static final int global=0x7f080000;
@@ -1347,8 +1292,9 @@ containing a value of this type.
         /**  Customize your theme here. 
          */
         public static final int AppTheme=0x7f070000;
-        public static final int settingSeparator=0x7f070001;
-        public static final int settingStyle=0x7f070002;
+        public static final int defaultSize=0x7f070001;
+        public static final int settingSeparator=0x7f070002;
+        public static final int settingStyle=0x7f070003;
     }
     public static final class styleable {
         /** Attributes that can be used with a BaseSetting.
@@ -1357,64 +1303,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BaseSetting_defaultValue com.aokp.romcontrol:defaultValue}</code></td><td></td></tr>
-           <tr><td><code>{@link #BaseSetting_key com.aokp.romcontrol:key}</code></td><td></td></tr>
-           <tr><td><code>{@link #BaseSetting_summary com.aokp.romcontrol:summary}</code></td><td></td></tr>
            <tr><td><code>{@link #BaseSetting_table com.aokp.romcontrol:table}</code></td><td></td></tr>
-           <tr><td><code>{@link #BaseSetting_title com.aokp.romcontrol:title}</code></td><td></td></tr>
            </table>
-           @see #BaseSetting_defaultValue
-           @see #BaseSetting_key
-           @see #BaseSetting_summary
            @see #BaseSetting_table
-           @see #BaseSetting_title
          */
         public static final int[] BaseSetting = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004
+            0x7f010000
         };
-        /**
-          <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#defaultValue}
-          attribute's value can be found in the {@link #BaseSetting} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.aokp.romcontrol:defaultValue
-        */
-        public static final int BaseSetting_defaultValue = 4;
-        /**
-          <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#key}
-          attribute's value can be found in the {@link #BaseSetting} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.aokp.romcontrol:key
-        */
-        public static final int BaseSetting_key = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#summary}
-          attribute's value can be found in the {@link #BaseSetting} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.aokp.romcontrol:summary
-        */
-        public static final int BaseSetting_summary = 3;
         /**
           <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#table}
           attribute's value can be found in the {@link #BaseSetting} array.
@@ -1428,52 +1323,22 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.aokp.romcontrol:table
         */
-        public static final int BaseSetting_table = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#title}
-          attribute's value can be found in the {@link #BaseSetting} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.aokp.romcontrol:title
-        */
-        public static final int BaseSetting_title = 2;
+        public static final int BaseSetting_table = 0;
         /** Attributes that can be used with a CheckboxSetting.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CheckboxSetting_checkDefaultValue com.aokp.romcontrol:checkDefaultValue}</code></td><td></td></tr>
            <tr><td><code>{@link #CheckboxSetting_descriptionOff com.aokp.romcontrol:descriptionOff}</code></td><td></td></tr>
            <tr><td><code>{@link #CheckboxSetting_descriptionOn com.aokp.romcontrol:descriptionOn}</code></td><td></td></tr>
            </table>
-           @see #CheckboxSetting_checkDefaultValue
            @see #CheckboxSetting_descriptionOff
            @see #CheckboxSetting_descriptionOn
          */
         public static final int[] CheckboxSetting = {
-            0x7f010005, 0x7f010006, 0x7f010007
+            0x7f010001, 0x7f010002
         };
-        /**
-          <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#checkDefaultValue}
-          attribute's value can be found in the {@link #CheckboxSetting} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.aokp.romcontrol:checkDefaultValue
-        */
-        public static final int CheckboxSetting_checkDefaultValue = 2;
         /**
           <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#descriptionOff}
           attribute's value can be found in the {@link #CheckboxSetting} array.
@@ -1510,16 +1375,12 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ColorPickerSetting_colorPickerDefaultValue com.aokp.romcontrol:colorPickerDefaultValue}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorPickerSetting_colorPickerShowAlphaSlider com.aokp.romcontrol:colorPickerShowAlphaSlider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ColorPickerSetting_colorPickerSummary com.aokp.romcontrol:colorPickerSummary}</code></td><td></td></tr>
-           <tr><td><code>{@link #ColorPickerSetting_colorPickerTitle com.aokp.romcontrol:colorPickerTitle}</code></td><td></td></tr>
            </table>
            @see #ColorPickerSetting_colorPickerDefaultValue
            @see #ColorPickerSetting_colorPickerShowAlphaSlider
-           @see #ColorPickerSetting_colorPickerSummary
-           @see #ColorPickerSetting_colorPickerTitle
          */
         public static final int[] ColorPickerSetting = {
-            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
+            0x7f010003, 0x7f010004
         };
         /**
           <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#colorPickerDefaultValue}
@@ -1535,7 +1396,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.aokp.romcontrol:colorPickerDefaultValue
         */
-        public static final int ColorPickerSetting_colorPickerDefaultValue = 2;
+        public static final int ColorPickerSetting_colorPickerDefaultValue = 0;
         /**
           <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#colorPickerShowAlphaSlider}
           attribute's value can be found in the {@link #ColorPickerSetting} array.
@@ -1549,35 +1410,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.aokp.romcontrol:colorPickerShowAlphaSlider
         */
-        public static final int ColorPickerSetting_colorPickerShowAlphaSlider = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#colorPickerSummary}
-          attribute's value can be found in the {@link #ColorPickerSetting} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.aokp.romcontrol:colorPickerSummary
-        */
-        public static final int ColorPickerSetting_colorPickerSummary = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#colorPickerTitle}
-          attribute's value can be found in the {@link #ColorPickerSetting} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.aokp.romcontrol:colorPickerTitle
-        */
-        public static final int ColorPickerSetting_colorPickerTitle = 0;
+        public static final int ColorPickerSetting_colorPickerShowAlphaSlider = 1;
         /** Attributes that can be used with a DeveloperPreference.
            <p>Includes the following attributes:</p>
            <table>
@@ -1597,8 +1430,8 @@ containing a value of this type.
            @see #DeveloperPreference_twitterHandle
          */
         public static final int[] DeveloperPreference = {
-            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
-            0x7f010010
+            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008,
+            0x7f010009
         };
         /**
           <p>This symbol is the offset where the {@link com.aokp.romcontrol.R.attr#donateLink}

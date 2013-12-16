@@ -1,4 +1,4 @@
-package urlimageviewhelper;
+package com.koushikdutta.urlimageviewhelper;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;

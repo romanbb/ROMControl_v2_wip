@@ -1,4 +1,4 @@
-package urlimageviewhelper;
+package com.koushikdutta.urlimageviewhelper;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

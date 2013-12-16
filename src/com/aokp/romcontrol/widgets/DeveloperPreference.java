@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.aokp.romcontrol.R;
-import urlimageviewhelper.UrlImageViewHelper;
+import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -62,7 +62,7 @@ public class DeveloperPreference extends LinearLayout {
          * Inflate views
          */
 
-        LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View layout = inflater.inflate(R.layout.dev_card, this, true);
 
         twitterButton = (ImageView) layout.findViewById(R.id.twitter_button);

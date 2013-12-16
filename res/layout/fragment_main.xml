@@ -34,10 +34,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            app:title="@string/battery_bar_animate_title"
-            app:summary="@string/battery_bar_animate_summary"
-            app:key="test"
-            app:checkDefaultValue="true"
+            android:title="@string/battery_bar_animate_title"
+            android:summary="@string/battery_bar_animate_summary"
+            android:key="test"
+            android:defaultValue="true"
             />
 
     <com.aokp.romcontrol.widgets.CategorySeparator
@@ -47,12 +47,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
+            android:key="test"
             app1:colorPickerShowAlphaSlider="true"
             app1:colorPickerDefaultValue="#FF0000"
-            app1:key="test"
             />
 
     <com.aokp.romcontrol.widgets.CategorySeparator
-            style="@style/settingSeparator"/>
+            style="@style/defaultSize"
+            android:title="@string/header_system"/>
 
 </LinearLayout>

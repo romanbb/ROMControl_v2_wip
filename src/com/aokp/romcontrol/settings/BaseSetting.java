@@ -1,7 +1,8 @@
 package com.aokp.romcontrol.settings;
 
 import android.content.Context;
-import android.content.res.TypedArray;
+import android.content.res.Resources;
+import android.content.res.Resources.NotFoundException;
 import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.View;
@@ -14,6 +15,9 @@ import com.aokp.romcontrol.R;
  * Created by roman on 12/15/13.
  */
 public abstract class BaseSetting extends FrameLayout {
+
+    public static final String NAMESPACE_ANDROID = "http://schemas.android.com/apk/res/android";
+    public static final String NAMESPACE_RC = "http://schemas.android.com/apk/res/com.aokp.romcontrol";
 
     protected String aKey, aTable, aTitle, aSummary, aDefaultValue;
 
@@ -31,36 +35,43 @@ public abstract class BaseSetting extends FrameLayout {
     public BaseSetting(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
-        TypedArray typedArray = null;
-        try {
-            typedArray = context.obtainStyledAttributes(attrs, R.styleable.BaseSetting);
+        if (attrs != null) {
+            Resources r = context.getResources();
+            aKey = attrs.getAttributeValue(NAMESPACE_ANDROID, "key");
 
-            aKey = typedArray.getString(R.styleable.BaseSetting_key);
-//            if (aKey == null || aKey.isEmpty()) {
-//                throw new UnsupportedOperationException();
-//            }
+            aTitle = readAttrStringResource(r, attrs.getAttributeResourceValue(NAMESPACE_ANDROID, "title", 0));
+            aSummary = readAttrStringResource(r, attrs.getAttributeResourceValue(NAMESPACE_ANDROID, "summary", 0));
 
-            // set defaults
-            String tempTable = typedArray.getString(R.styleable.BaseSetting_table);
-            if (tempTable == null) {
+            aDefaultValue = attrs.getAttributeValue(NAMESPACE_ANDROID, "defaultValue");
+            aTable = attrs.getAttributeValue(NAMESPACE_RC, "table");
+
+            if (aTable == null) {
                 aTable = "aokp";
-            } else {
-                aTable = tempTable;
             }
-
-            aTitle = typedArray.getString(R.styleable.BaseSetting_title);
-            aSummary = typedArray.getString(R.styleable.BaseSetting_summary);
-            aDefaultValue = typedArray.getString(R.styleable.BaseSetting_defaultValue);
-
-        } finally {
-            if (typedArray != null) {
-                typedArray.recycle();
-            }
+//            TypedArray typedArray = null;
+//            try {
+//                typedArray = context.obtainStyledAttributes(attrs, R.styleable.BaseSetting);
+//                String tempTable = typedArray.getString(R.styleable.BaseSetting_table);
+//
+//            } finally {
+//                if (typedArray != null) {
+//                    typedArray.recycle();
+//                }
+//            }
         }
 
         mRootView = (LinearLayout) View.inflate(context, R.layout.setting_base, null);
         mTitleTextView = (TextView) mRootView.findViewById(R.id.title);
         mDescriptionTextView = (TextView) mRootView.findViewById(R.id.summary);
+    }
+
+    public static String readAttrStringResource(Resources r, int resource) {
+        try {
+            String string = r.getString(resource);
+            return string;
+        } catch (NotFoundException e) {
+            return null;
+        }
     }
 
     protected final void setValue(String s) {

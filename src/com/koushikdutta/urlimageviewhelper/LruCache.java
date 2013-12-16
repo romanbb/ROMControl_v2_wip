@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package urlimageviewhelper;
+package com.koushikdutta.urlimageviewhelper;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

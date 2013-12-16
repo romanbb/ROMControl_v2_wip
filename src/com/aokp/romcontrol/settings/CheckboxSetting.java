@@ -31,16 +31,19 @@ public class CheckboxSetting extends BaseSetting implements OnClickListener {
     public CheckboxSetting(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
-        TypedArray typedArray = null;
-        try {
-            typedArray = context.obtainStyledAttributes(attrs, R.styleable.CheckboxSetting);
+        if (attrs != null) {
 
-            mChecked = typedArray.getBoolean(R.styleable.CheckboxSetting_checkDefaultValue, false);
-            aDescriptionOn = typedArray.getString(R.styleable.CheckboxSetting_descriptionOn);
-            aDescriptionOff = typedArray.getString(R.styleable.CheckboxSetting_descriptionOff);
-        } finally {
-            if (typedArray != null) {
-                typedArray.recycle();
+            TypedArray typedArray = null;
+            try {
+                typedArray = context.obtainStyledAttributes(attrs, R.styleable.CheckboxSetting);
+
+                mChecked = Boolean.parseBoolean(aDefaultValue);
+                aDescriptionOn = typedArray.getString(R.styleable.CheckboxSetting_descriptionOn);
+                aDescriptionOff = typedArray.getString(R.styleable.CheckboxSetting_descriptionOff);
+            } finally {
+                if (typedArray != null) {
+                    typedArray.recycle();
+                }
             }
         }
 
