@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="settingSeparator">
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:background">@color/setting_separator</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+
+    <color name="setting_separator">#ff484848</color>
+</resources>

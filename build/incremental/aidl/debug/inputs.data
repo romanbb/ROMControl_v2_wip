@@ -1,0 +1,24 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1387158287000 5993 d23d3b6acbec6e7346a160d93c4a6915a7a7583c /Users/roman/Desktop/ROMControl_v2_wip/src/com/aokp/romcontrol/widgets/DeveloperPreference.java
+1387139634000 25044 3f9263663ebf9ac7f4d2384a559ccf042670aa82 /Users/roman/Desktop/ROMControl_v2_wip/src/net/margaritov/preference/colorpicker/ColorPickerView.java
+1387200762000 6920 590c083c2ef6347a204a547b6ed959c0780d8f0a /Users/roman/Desktop/ROMControl_v2_wip/src/com/aokp/romcontrol/settings/ColorPickerSetting.java
+1387147686000 804 5ba5b516a6346db94c22bdf6c674807f92d85bbe /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/SoftReferenceHashTable.java
+1387202897000 2871 9cdb71a779819e65f28fd48e01f1bc08f17167d5 /Users/roman/Desktop/ROMControl_v2_wip/src/com/aokp/romcontrol/settings/BaseSetting.java
+1387139634000 2452 ccbeafef72b4afdc610aeca7c0511d38f875b17e /Users/roman/Desktop/ROMControl_v2_wip/src/com/aokp/romcontrol/widgets/AlphaSeekBar.java
+1387147686000 343 c69df420f5eab47e588d810bb1abb79fd18d2e32 /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/UrlImageCache.java
+1387139634000 3785 6ed2a71a2ff7cbb4b74139e63560c60bcc74c0c3 /Users/roman/Desktop/ROMControl_v2_wip/src/net/margaritov/preference/colorpicker/AlphaPatternDrawable.java
+1387147686000 22334 deb5d9242eb3647ee1012c0d16d42ecbf4e5812d /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/UrlImageViewHelper.java
+1387161379000 4992 72e9f42a22cc4e20c76ebb96c57c27003b7cb1c9 /Users/roman/Desktop/ROMControl_v2_wip/src/net/margaritov/preference/colorpicker/ColorPickerDialog.java
+1387146778000 10600 4c4051e44fed03c83bebc055991cbf2abb1beca2 /Users/roman/Desktop/ROMControl_v2_wip/src/com/aokp/romcontrol/NavigationDrawerFragment.java
+1387147686000 10392 9005089b16a9975f74ffe9c3d5b286f65babbbbe /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/LruCache.java
+1387147686000 513 55f2f65589700e712a6e6d3c14550b42be316751 /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/UrlLruCache.java
+1387147686000 337 eff58642a2b07b485164c282e9334c07bafdda0a /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/Constants.java
+1387147686000 33052 a9dea3b9daeb35fb049c8a2e2ccab6d9227e5d41 /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/DiskLruCache.java
+1387146778000 4961 55cb19010053e43502df3c7e1c1bda7166e724b1 /Users/roman/Desktop/ROMControl_v2_wip/src/com/aokp/romcontrol/MainActivity.java
+1387147686000 250 5d0440ab12e082c41fa4255a7b359f64c650e1b4 /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/UrlImageViewCallback.java
+1387139634000 4522 49ae846b9acee2da72974d5f56b2464e0ce773ba /Users/roman/Desktop/ROMControl_v2_wip/src/net/margaritov/preference/colorpicker/ColorPickerPanelView.java
+1387201055000 2683 b3ff667e8facce601cc4976e8d5853bdfcb64b47 /Users/roman/Desktop/ROMControl_v2_wip/src/com/aokp/romcontrol/settings/CheckboxSetting.java
+1387147686000 1233 284eed0ad8eb548587217c41f9928f050f538739 /Users/roman/Desktop/ROMControl_v2_wip/src/com/koushikdutta/urlimageviewhelper/WrapperDrawable.java
+1387201593000 551 94485c6feb2c7b83b30ee8783f1d27e8b9bf80ea /Users/roman/Desktop/ROMControl_v2_wip/src/com/aokp/romcontrol/widgets/CategorySeparator.java

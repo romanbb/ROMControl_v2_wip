@@ -1,0 +1,3295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/roman/Desktop/ROMControl_v2_wip/res" >
+            <file
+                name="item_background_holo_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable/item_background_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_background_transition_holo_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable/list_selector_background_transition_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_holo_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable/list_selector_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="divider_horizontal_dim_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/divider_horizontal_dim_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/drawer_shadow.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="duplicate"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/duplicate.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="github"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/github.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_drawer.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_empty"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_empty.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher_application"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_launcher_application.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_clipboard"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_menu_clipboard.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_save"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_menu_save.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_navigation_ring_hint_activated"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_navigation_ring_hint_activated.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_navigation_ring_hint_normal"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_navigation_ring_hint_normal.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_null"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_null.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_about"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_about.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_active_display"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_active_display.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_animations"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_animations.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_battery"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_battery.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_clock"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_clock.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_general"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_general.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_general_ui"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_general_ui.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_hardware_keys"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_hardware_keys.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_init_d"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_init_d.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_installer"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_installer.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_led"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_led.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_lockscreens"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_lockscreens.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_navigation_bar"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_navigation_bar.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_navigation_ring"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_navigation_ring.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_notifications"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_notifications.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_power_menu"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_power_menu.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_powersaver"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_powersaver.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_quick_settings"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_quick_settings.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_ribbon"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_ribbon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_signal"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_signal.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_sound"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_sound.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_spen"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_spen.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_toggles"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_toggles.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_vibrations"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_vibrations.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_weather"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_rom_control_weather.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_settings_backup"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_settings_backup.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_menu"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_sysbar_menu.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_null"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_sysbar_null.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_quicksettings"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/ic_sysbar_quicksettings.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="led_circle_button"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/led_circle_button.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="led_phone_image"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/led_phone_image.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_focused_holo"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/list_focused_holo.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_longpressed_holo_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/list_longpressed_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_pressed_holo_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/list_pressed_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_selector_disabled_holo_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/list_selector_disabled_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_selector_focused_holo_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/list_selector_focused_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="paypal_donate"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/paypal_donate.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="twitter_birdy"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/twitter_birdy.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="widget_add"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/widget_add.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="widget_delete"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/widget_delete.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="widget_left"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/widget_left.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="widget_na"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/widget_na.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="widget_reset"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/widget_reset.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="widget_right"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi/widget_right.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_grabber"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-hdpi-finger/ic_grabber.png"
+                qualifiers="hdpi-finger"
+                type="drawable" />
+            <file
+                name="divider_horizontal_dim_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/divider_horizontal_dim_dark.9.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_widget"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/ic_sysbar_widget.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="widget_add"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/widget_add.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="widget_delete"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/widget_delete.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="widget_left"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/widget_left.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="widget_na"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/widget_na.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="widget_reset"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/widget_reset.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="widget_right"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-ldpi/widget_right.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="divider_horizontal_dim_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/divider_horizontal_dim_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/drawer_shadow.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="duplicate"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/duplicate.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="github"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/github.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_drawer.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_empty"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_empty.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher_application"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_launcher_application.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_clipboard"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_menu_clipboard.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_save"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_menu_save.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_navigation_ring_hint_activated"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_navigation_ring_hint_activated.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_navigation_ring_hint_normal"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_navigation_ring_hint_normal.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_null"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_null.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_about"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_about.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_active_display"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_active_display.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_animations"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_animations.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_battery"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_battery.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_clock"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_clock.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_general"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_general.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_general_ui"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_general_ui.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_hardware_keys"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_hardware_keys.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_init_d"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_init_d.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_installer"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_installer.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_led"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_led.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_lockscreens"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_lockscreens.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_navigation_bar"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_navigation_bar.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_navigation_ring"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_navigation_ring.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_notifications"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_notifications.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_power_menu"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_power_menu.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_powersaver"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_powersaver.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_quick_settings"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_quick_settings.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_ribbon"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_ribbon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_signal"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_signal.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_sound"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_sound.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_spen"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_spen.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_toggles"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_toggles.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_vibrations"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_vibrations.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_weather"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_rom_control_weather.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_settings_backup"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_settings_backup.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_menu"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_sysbar_menu.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_null"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_sysbar_null.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_quicksettings"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/ic_sysbar_quicksettings.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="led_circle_button"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/led_circle_button.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="led_phone_image"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/led_phone_image.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="paypal_donate"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/paypal_donate.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="twitter_birdy"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/twitter_birdy.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="widget_add"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/widget_add.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="widget_delete"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/widget_delete.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="widget_left"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/widget_left.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="widget_na"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/widget_na.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="widget_reset"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/widget_reset.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="widget_right"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi/widget_right.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_grabber"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-mdpi-finger/ic_grabber.png"
+                qualifiers="mdpi-finger"
+                type="drawable" />
+            <file
+                name="committer_arrow"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-nodpi/committer_arrow.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="octacat"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-nodpi/octacat.jpg"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="divider_horizontal_dim_dark"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/divider_horizontal_dim_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/drawer_shadow.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="duplicate"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/duplicate.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_drawer.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_empty"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_empty.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_clipboard"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_menu_clipboard.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_save"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_menu_save.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_navigation_ring_hint_activated"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_navigation_ring_hint_activated.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_navigation_ring_hint_normal"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_navigation_ring_hint_normal.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_active_display"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_active_display.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_animations"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_animations.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_battery"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_battery.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_clock"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_clock.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_general_ui"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_general_ui.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_hardware_keys"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_hardware_keys.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_installer"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_installer.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_led"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_led.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_lockscreens"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_lockscreens.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_navigation_bar"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_navigation_bar.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_navigation_ring"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_navigation_ring.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_notifications"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_notifications.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_power_menu"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_power_menu.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_quick_settings"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_quick_settings.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_ribbon"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_ribbon.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_signal"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_signal.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_sound"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_sound.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_spen"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_spen.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_toggles"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_toggles.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_vibrations"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_vibrations.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_rom_control_weather"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_rom_control_weather.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_settings_backup"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_settings_backup.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_menu"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_sysbar_menu.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_null"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_sysbar_null.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_sysbar_quicksettings"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/ic_sysbar_quicksettings.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="led_circle_button"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/led_circle_button.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="led_phone_image"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/led_phone_image.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="widget_add"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/widget_add.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="widget_delete"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/widget_delete.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="widget_left"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/widget_left.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="widget_na"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/widget_na.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="widget_reset"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/widget_reset.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="widget_right"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xhdpi/widget_right.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xxhdpi/drawer_shadow.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xxhdpi/ic_drawer.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="alpha_seekbar"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/alpha_seekbar.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dev_card"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/dev_card.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_color_picker"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/dialog_color_picker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_main"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/fragment_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_navigation_drawer"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/fragment_navigation_drawer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="setting_base"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/setting_base.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="setting_base_include"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/setting_base_include.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="setting_checkbox"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/setting_checkbox.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="setting_colorpicker"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout/setting_colorpicker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_color_picker"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/layout-land/dialog_color_picker.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="global"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/menu/global.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="BaseSetting" >
+                    <attr
+                        name="key"
+                        format="string" />
+                    <attr
+                        name="table"
+                        format="string" />
+                    <attr
+                        name="title"
+                        format="string" />
+                    <attr
+                        name="summary"
+                        format="string" />
+                    <attr
+                        name="defaultValue"
+                        format="string" />
+                </declare-styleable>
+                <declare-styleable name="CheckboxSetting" >
+                    <attr
+                        name="descriptionOn"
+                        format="string" />
+                    <attr
+                        name="descriptionOff"
+                        format="string" />
+                    <attr
+                        name="checkDefaultValue"
+                        format="boolean" />
+                </declare-styleable>
+                <declare-styleable name="ColorPickerSetting" >
+                    <attr
+                        name="colorPickerTitle"
+                        format="string" />
+                    <attr
+                        name="colorPickerSummary"
+                        format="string" />
+                    <attr
+                        name="colorPickerDefaultValue"
+                        format="color" />
+                    <attr
+                        name="colorPickerShowAlphaSlider"
+                        format="boolean" />
+                </declare-styleable>
+                <declare-styleable name="DeveloperPreference" >
+                    <attr
+                        name="twitterHandle"
+                        format="string" />
+                    <attr
+                        name="nameDev"
+                        format="string" />
+                    <attr
+                        name="donateLink"
+                        format="string" />
+                    <attr
+                        name="githubLink"
+                        format="string" />
+                    <attr
+                        name="emailDev"
+                        format="string" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/values/colors.xml"
+                qualifiers="" >
+                <color name="transparent" >#00000000
+                </color>
+            </file>
+            <file
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="navigation_drawer_width" >240dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/values/strings.xml"
+                qualifiers="" >
+                <string name="ribbon_handle_location_title" >Ribbon handle location
+                </string>
+                <string name="navbar_widgets_delete" >Delete widget
+                </string>
+                <string name="ad_enable_summary_on" >Active display enabled
+                </string>
+                <string name="navigation_bar_height_summary" >Navigation Bar height while in portrait
+                </string>
+                <string name="lockscreen_torch_navring" >NavRing
+                </string>
+                <string name="power_menu" >Power Menu
+                </string>
+                <string name="toggle_navbar_hide" >NavBar Auto Hide
+                </string>
+                <string name="volume_rocker_wake_title" >Volume wake
+                </string>
+                <string name="ad_enable_title" >Enable
+                </string>
+                <string name="lockscreen_wallpaper_title" >Lockscreen background
+                </string>
+                <string name="vib_new" >New/Reset
+                </string>
+                <string name="weather_loc_warning_negative" >"Don't enable."
+                </string>
+                <string name="summary_pref_menu_display" >Menu buttons can be rearranged or hidden here (in case you are using the
+        Big Menu button)
+                </string>
+                <string name="one_target" >1 target
+                </string>
+                <string name="enable_phone_or_phablet" >To Unlock: enable phone or phablet \"UI mode\"
+                </string>
+                <string name="circles_lock_ring_color_title" >Ring color
+                </string>
+                <string name="lockscreen_torch_lockcircle" >LockRing
+                </string>
+                <string name="time_7_seconds" >7 seconds
+                </string>
+                <string name="hide_navbar_timeout_never" >Never
+                </string>
+                <string name="lockscreen_target_longpress_text" >Longpress actions
+                </string>
+                <string name="persist_file_xposed" >Persist Xposed
+                </string>
+                <string name="screenshot_delay_summary" >Delay to use after longpressing the screenshot toggle
+                </string>
+                <string name="title_weather_shortclick" >Weather panel short click actions
+                </string>
+                <string name="weather_refresh_interval_minutes" >" minutes"
+                </string>
+                <string name="title_lockscreens" >Lockscreen Options
+                </string>
+                <string name="github_jbirdvegas" >https://github.com/JBirdVegas
+                </string>
+                <string name="ad_all_notifications_summary" >Show all notifications including ongoing, non-clearable notifications.
+                </string>
+                <string name="transparency_dialog_lockscreen" >Lockscreen
+                </string>
+                <string name="set_custom_density_set" >Set
+                </string>
+                <string name="lockscreen_minimize_challenge_title" >Minimize lockscreen challenge
+                </string>
+                <string name="toggle_btn_background_title" >Toggle background alpha
+                </string>
+                <string name="github_kecinzer" >https://github.com/kecinzer
+                </string>
+                <string name="dclick_action_title" >Double-click Actions
+                </string>
+                <string name="lockscreen_use_widget_container_carousel_summary" >Use a carousel animation when switching between
+        lockscreen widgets.
+                </string>
+                <string name="select_custom_app_title" >Select custom application
+                </string>
+                <string name="lockscreen_auto_rotate_title" >Allow lockscreen rotation
+                </string>
+                <string name="vibrate_notif_expand_summary" >Vibrate when expanding notifications (requires UI restart)
+                </string>
+                <string name="toggles_order_summary" >Choose the order in which your toggles are displayed
+                </string>
+                <string name="header_summary_lockscreens" >@null
+                </string>
+                <string name="medium" >medium
+                </string>
+                <string name="time_0_seconds_instant_off" >0 seconds (Instant Off)
+                </string>
+                <string name="rotate_270_summary" >Checking this allows your device to rotate to the right
+                </string>
+                <string name="stock_density_summary" >Tablets and older phones use 160. Most phones use 240. Galaxy Nexus uses 320 by
+        default.
+                </string>
+                <string name="title_pref_menu_display" >Menu location
+                </string>
+                <string name="title_activity_main" >ROM Control
+                </string>
+                <string name="spen_right_title" >Action on swipe right
+                </string>
+                <string name="size_2_dp" >2 dp
+                </string>
+                <string name="lockscreen_target_edit_title" >Edit target and icon
+                </string>
+                <string name="lockscreen_color_title" >Lockscreen theme color
+                </string>
+                <string name="checkbox_increasing_ring" >Enable
+                </string>
+                <string name="toggle_style_tile" >Tiles
+                </string>
+                <string name="ribbon_icon_vibrate_title" >Vibrate on target click
+                </string>
+                <string name="time_5_5_seconds" >5.5 seconds
+                </string>
+                <string name="alarm" >Alarms
+                </string>
+                <string name="always_show" >Always show
+                </string>
+                <string name="size_75_mb" >75mb
+                </string>
+                <string name="icon_with_centered_text" >Icon with centered text
+                </string>
+                <string name="navbar_title_menu" >Button options
+                </string>
+                <string name="custom_density_dialog_button_reboot" >Reboot now
+                </string>
+                <string name="notification_show_wifi_ssid_title" >Show WiFi network name
+                </string>
+                <string name="time_2_seconds" >2 seconds
+                </string>
+                <string name="vib_del" >Delete
+                </string>
+                <string name="weather_loc_warning_positive" >"Enable network location"
+                </string>
+                <string name="time_6_days" >6 days
+                </string>
+                <string name="clear_market_data_title" >3. Clear market data
+                </string>
+                <string name="size_0_dp" >0 dp (off)
+                </string>
+                <string name="dont_show" >Don\'t show
+                </string>
+                <string name="clipboard_notification" >Copied to Clipboard
+                </string>
+                <string name="ad_sunlight_mode_summary" >Invert the colors when in areas with bright light such as direct sunlight.
+                </string>
+                <string name="direction_west" >W
+                </string>
+                <string name="lockscreen_battery_title" >Lockscreen battery percentage
+                </string>
+                <string name="notif_wallpaper_alpha_title" >Notification background alpha
+                </string>
+                <string name="ad_brightness_summary" >Brightness level for displaying notifications when automatic brightness is not enabled.
+                </string>
+                <string name="increasing_ring_interval_half_second" >0.5 seconds
+                </string>
+                <string name="summary_settings_behavior_default" >Short press for Settings, Longpress for Toggles
+                </string>
+                <string name="title_ui" >General User Interface
+                </string>
+                <string name="battery_not_title" >Battery icon in notifications
+                </string>
+                <string name="window_columns_title" >Window columns
+                </string>
+                <string name="persist_prop_density_summary" >Persist LCD density
+                </string>
+                <string name="enable_bootanimation_unlock" >To Unlock: uncheck \"disable boot animation\"
+                </string>
+                <string name="github_xoom" >https://github.com/xoomdev
+                </string>
+                <string name="toggle_ime" >IME
+                </string>
+                <string name="menu_ribbon_toggles_error" >Toggles are only available for the left and right swipe ribbons.
+                </string>
+                <string name="lockscreen_calendar_hide_ongoing_summary" >If enabled, events which already started won\'t show up.
+                </string>
+                <string name="ribbon_icon_size_summary" >Set size of your icons
+                </string>
+                <string name="nav_bar" >Navigation Bar
+                </string>
+                <string name="ribbon_dismiss_title" >Ribbon dismiss action
+                </string>
+                <string name="open_market_title" >4. Open Market and hit accept
+                </string>
+                <string name="weather_use_celcius" >Metric units
+                </string>
+                <string name="navbar_widgets_instructions" >Swipe to view - Click to choose
+                </string>
+                <string name="never" >Never
+                </string>
+                <string name="vibrate_intensity_title" >Minimum vibration duration
+                </string>
+                <string name="vib_save" >Save
+                </string>
+                <string name="toggle_battery" >Battery
+                </string>
+                <string name="lcd_density_wizard" >LCD Density Wizard
+                </string>
+                <string name="top" >Top
+                </string>
+                <string name="ime_switcher_summary" >In Statusbar while typing
+                </string>
+                <string name="lockscreen_all_widgets_summary" >Warning** Some widgets are not intended to be used on the lockscreen,
+        The widget maker and AOKP are not responsible for your choice of lockscreen widgets. Choose responsibly.
+                </string>
+                <string name="enable_fasttoggle" >To Unlock: \"enable fast toggle\" and tiles \"toggle style\"
+                </string>
+                <string name="battery_bar_cat" >Battery bar options
+                </string>
+                <string name="lockscreen_text_color_summary" >Set the lockscreen text color
+                </string>
+                <string name="navring_target_reset" >Navigation Ring targets reset.
+                </string>
+                <string name="not_bar" >Not NavBar actions
+                </string>
+                <string name="hardware_keys_action_menu" >Open/close menu
+                </string>
+                <string name="help" >Help
+                </string>
+                <string name="header_navbar" >Navigation Bar
+                </string>
+                <string name="dclick_action_summary" >Change state by double-clicking
+                </string>
+                <string name="navbar_buttons_instructions" >Press icon to select actions or custom icon
+                </string>
+                <string name="header_summary_activedisplay" >@null
+                </string>
+                <string name="notification_wallpaper_pick" >New notification background
+                </string>
+                <string name="lockscreen_targets_summary" >Lockscreen targets summary…
+                </string>
+                <string name="weather_enable" >Enable weather
+                </string>
+                <string name="navring_long" >Long action
+                </string>
+                <string name="ribbon_swipe_right" >Right swipe Ribbon
+                </string>
+                <string name="tabletUI_cat" >Tablet UI
+                </string>
+                <string name="weather_custom_location_dialog_message" >Be sure to follow the examples! Setting an invalid location
+        will stop you from getting weather updates and may cause unexpected behavior.\n\nExamples: New York,NY // New
+        York, NY // 10033 // London, England
+                </string>
+                <string name="title_led_screen_on" >Flash LED while screen is on
+                </string>
+                <string name="toggle_sound_state" >Ring/Vib/Silent
+                </string>
+                <string name="notification_wallpaper_title" >Notification background
+                </string>
+                <string name="navring_target_amount_text" >Current number of targets
+                </string>
+                <string name="weather_use_celcius_summary" >Enabling this will display weather temperature in Celsius rather than
+        Fahrenheit and windspeed in km/h rather than mph.
+                </string>
+                <string name="title_pref_navigation_menu_display" >Menu visibility
+                </string>
+                <string name="defaultvibrationname" >"'Default'"
+                </string>
+                <string name="reboot_title" >2. Reboot!
+                </string>
+                <string name="time_8_hours" >8 hours
+                </string>
+                <string name="navbar_height_dialog_button_later" >I\'ll reboot later
+                </string>
+                <string name="github_aokp" >https://github.com/AOKP
+                </string>
+                <string name="summary_navbar_timeout" >Timeout time for Hidden NavBar Window
+                </string>
+                <string name="lockscreen_target_info" >Drag the unlock icon to targets to assign targets
+                </string>
+                <string name="statusbar" >Statusbar
+                </string>
+                <string name="on_top" >On top
+                </string>
+                <string name="toggle_airplane_mode" >Airplane Mode
+                </string>
+                <string name="width_port_title" >CombinedBar width port
+                </string>
+                <string name="navigation_bar_tint_title" >Navigation Bar buttons color
+                </string>
+                <string name="ribbon_drag_handle_width_title" >Drag handle length
+                </string>
+                <string name="size_24_dp" >24 dp
+                </string>
+                <string name="ring_silent" >Ring/Silent
+                </string>
+                <string name="clock_title_enable" >Clock style
+                </string>
+                <string name="animation_duration_title" >Animation Duration
+                </string>
+                <string name="battery_icon" >Battery icon style
+                </string>
+                <string name="toggles_layout" >Toggles
+                </string>
+                <string name="lockscreen_menu_unlock_summary" >Use the menu key to unlock the screen
+                </string>
+                <string name="systembar_hide_enable_title" >Enable Hidden SystemBar
+                </string>
+                <string name="title_navbar" >Navigation Bar
+                </string>
+                <string name="ribbon_hide_ime_title" >Keyboard swipe area hide.
+                </string>
+                <string name="follow_through_summary" >Make sure you follow the steps one-by-one and complete each one before
+        proceeding to the next.
+                </string>
+                <string name="navigation_drawer_close" >Close navigation drawer
+                </string>
+                <string name="time_1_5_minutes" >1.5 minutes
+                </string>
+                <string name="small_am_pm" >Small AM/PM
+                </string>
+                <string name="transparency_dialog_match_keyguard_alpha" >Match lockscreen alpha
+                </string>
+                <string name="ad_hide_low_priority_summary" >Hide low priority notifications such as those from Google Now.
+                </string>
+                <string name="vib_play" >Play
+                </string>
+                <string name="error_reading_zip_file" >Error reading zip file
+                </string>
+                <string name="insult_unicorns" >Concede pink unicorns are for little girls
+                </string>
+                <string name="increasing_ring_interval_1second" >1 second
+                </string>
+                <string name="text_on" >On
+                </string>
+                <string name="show_4g_for_lte_summary" >Show 4G network indicator icon instead of LTE icon
+                </string>
+                <string name="size_40_dp" >40 dp
+                </string>
+                <string name="system_power_crt_mode_both" >Orientation dependent
+                </string>
+                <string name="wakeup_when_plugged_unplugged_title" >Wake up on charger
+                </string>
+                <string name="toggle_usb_tether" >USB Tether
+                </string>
+                <string name="increasing_ring_interval_2seconds" >2 seconds
+                </string>
+                <string name="time_2_minutes" >2 minutes
+                </string>
+                <string name="hardware_keys_long_press_title" >Long press action
+                </string>
+                <string name="time_30_minutes" >30 minutes
+                </string>
+                <string name="time_10_seconds" >10 seconds
+                </string>
+                <string name="lockscreen_camera_widget_summary" >Allows you to disable camera widget in lockscreen.
+                </string>
+                <string name="transparency_dialog_transparency_keyguard" >Lockscreen alpha
+                </string>
+                <string name="enable_ribbon_vibrate_title" >Vibrate on touch of swipe area
+                </string>
+                <string name="lockscreen_hide_initial_page_hints_summary" >Set whether the hints for the left and right widgets are
+        shown when the screen is turned on.
+                </string>
+                <string name="time_3_hours" >3 hours
+                </string>
+                <string name="increasing_ring_interval_5seconds" >5 seconds
+                </string>
+                <string name="collapse_bar_summary" >Notification shade closes on action completion
+                </string>
+                <string name="enable_screenshot_toggle" >To Unlock: enable a \"screenshot\" toggle here or in a Ribbon
+                </string>
+                <string name="size_4_dp" >4 dp
+                </string>
+                <string name="transparency_dialog_transparency" >Homescreen alpha
+                </string>
+                <string name="search" >Search
+                </string>
+                <string name="statusbar_hide_title" >Hide Statusbar
+                </string>
+                <string name="ribbon_notifications" >Notifications Ribbon
+                </string>
+                <string name="lockscreen_menu_unlock_title" >Menu unlock
+                </string>
+                <string name="use_custom_app_summary" >Use custom application instead of the recent applications dialog
+                </string>
+                <string name="lockscreen_target_empty" >Empty
+                </string>
+                <string name="flip_action_positive" >OK
+                </string>
+                <string name="show_signal_text" >Show signal text
+                </string>
+                <string name="navbar_hide" >NavBar Hide Options
+                </string>
+                <string name="time_5_days" >5 days
+                </string>
+                <string name="summary_toggles_autohide" >Hide toggles after drawer closes
+                </string>
+                <string name="follow_through_title" >Follow through!
+                </string>
+                <string name="system_power_crt_screen_off_summary" >Screen will animate an Electron Beam when turned off
+                </string>
+                <string name="toggle_bluetooth" >Bluetooth
+                </string>
+                <string name="volume_music_controls_summary" >Longpress volume buttons to skip tracks while screen is off. Volume
+        wake will not work when music is playing.
+                </string>
+                <string name="navring_target_info" >Drag your finger to targets to assign actions
+                </string>
+                <string name="right" >Right
+                </string>
+                <string name="action_toggle_title" >Toggle Actions
+                </string>
+                <string name="app_name" >ROM Control
+                </string>
+                <string name="navbar_widgets_shiftRight" >Shift right
+                </string>
+                <string name="wifi_save" >Save
+                </string>
+                <string name="ad_redisplay_30m" >30 minutes
+                </string>
+                <string name="title_statusbar_toggles" >Statusbar Toggles
+                </string>
+                <string name="aokp_ribbon" >AOKP ribbon
+                </string>
+                <string name="system_power_crt_mode_vertical" >Portrait vertical
+                </string>
+                <string name="icon_picker_pack_title" >Icon pack
+                </string>
+                <string name="recent_google_assist_title" >Enable Google Now button
+                </string>
+                <string name="led_custom_title" >Custom LED Apps
+                </string>
+                <string name="menu_ribbon_rearrange" >Rearrange ribbon
+                </string>
+                <string name="toggle_sync" >Sync
+                </string>
+                <string name="ad_pocket_mode_always" >Always
+                </string>
+                <string name="persist_options" >Persistence
+                </string>
+                <string name="github_birdman" >https://github.com/mrbirdman
+                </string>
+                <string name="three_targets" >3 targets
+                </string>
+                <string name="navigation_bar_height_landscape_title" >Navigation Bar height landscape
+                </string>
+                <string name="led_on" >LED on
+                </string>
+                <string name="header_summary_weather" >@null
+                </string>
+                <string name="text_off" >Off
+                </string>
+                <string name="navbar_width_help_summary" >100 is 70\%% of screen width, 5 is 30\%% of screen width. 0 will default to
+        per button width.
+                </string>
+                <string name="time_4_hours" >4 hours
+                </string>
+                <string name="header_summary_sound" >@null
+                </string>
+                <string name="lockscreen_stock_music_layout_title" >Stock music layout
+                </string>
+                <string name="github_scar45" >https://github.com/scar45
+                </string>
+                <string name="signal_color_title" >Signal text color
+                </string>
+                <string name="less_notification_sounds_summary" >Limit each app\'s notification sounds to play once per the set
+        value
+                </string>
+                <string name="direction_south_west" >SW
+                </string>
+                <string name="recent_kill_all_summary" >Displays a button that kills all apps in the Recent Apps window
+                </string>
+                <string name="wifi_signal_style" >WiFi signal indicator style
+                </string>
+                <string name="time_5_seconds" >5 seconds
+                </string>
+                <string name="hardware_keys_show_overflow_toast_enable" >The action overflow button may not be visible until apps are restarted
+                </string>
+                <string name="lockscreen_layout_cat" >Layout
+                </string>
+                <string name="ribbon_right_enable_title" >Enable swipe from right
+                </string>
+                <string name="ribbon_settings_title" >Ribbons
+                </string>
+                <string name="summary_settings_behavior_reverse" >Short press for Toggles, Longpress for Settings
+                </string>
+                <string name="clear_custom_bootanimation" >Clear custom boot animation
+                </string>
+                <string name="led_test_notification_message_note" >".\nPlease turn off your screen to see the LED. Don't hit OK on
+        this popup until you're done viewing the LED color."
+                </string>
+                <string name="weather_use_custom_location" >Use custom location
+                </string>
+                <string name="ad_hide_low_priority_title" >Hide low priority
+                </string>
+                <string name="vib_rec" >Record
+                </string>
+                <string name="ribbon_icon_location_title" >Icon gravity
+                </string>
+                <string name="time_6_seconds" >6 seconds
+                </string>
+                <string name="update" >Update weather panel
+                </string>
+                <string name="ok" >OK
+                </string>
+                <string name="always_show_invincible_icons" >Always show invisible icons
+                </string>
+                <string name="toggle_torch" >Torch
+                </string>
+                <string name="window_text_color_title" >Window text color
+                </string>
+                <string name="arrow_down" >↓
+                </string>
+                <string name="lockscreen_target_reset" >Lockscreen shortcuts reset to default
+                </string>
+                <string name="nothing" >Nothing
+                </string>
+                <string name="sound" >Sound
+                </string>
+                <string name="title_weather_longclick" >Weather panel long click actions
+                </string>
+                <string name="show_overflow_title" >Show Menu UI overflow
+                </string>
+                <string name="lockscreen_use_widget_container_carousel_title" >Use widget carousel
+                </string>
+                <string name="ad_customizations_title" >Customizations
+                </string>
+                <string name="menu_weather_get_weather" >Get weather
+                </string>
+                <string name="arrow_right" >→
+                </string>
+                <string name="title_show_torch_toggle" >Torch
+                </string>
+                <string name="ad_text_summary" >Show the notification text around the ring.
+                </string>
+                <string name="screenshot_delay_title" >Screenshot delay
+                </string>
+                <string name="lockscreen_target_reset_title" >Reset
+                </string>
+                <string name="headphones_mode_no_action" >No action
+                </string>
+                <string name="toggle_widgets" >Toggle widgets
+                </string>
+                <string name="toggle_vibrate_summary" >Vibrate on all generic toggle actions
+                </string>
+                <string name="custom_help_summary" >Click for more information
+                </string>
+                <string name="ad_enable_summary_off" >Active display disabled
+                </string>
+                <string name="fast_charge_not_supported_title" >Fast Charge not supported
+                </string>
+                <string name="increasing_ring_interval_3seconds" >3 seconds
+                </string>
+                <string name="user_interface" >Interface
+                </string>
+                <string name="enable_persist_installer" >To Unlock: \"enable persistence\"
+                </string>
+                <string name="circles_lock_ring_alpha_title" >Ring alpha
+                </string>
+                <string name="lockscreen_calendar_sources_summary" >Select the calendars you want to see.
+                </string>
+                <string name="lockscreen_calendar_use_colors_summary" >If enabled, events will be colored like in your calendar.
+                </string>
+                <string name="navbar_enable_dialog_negative" >I\'ll reboot later
+                </string>
+                <string name="lockscreen_weather_type_title" >Lockscreen Weather style
+                </string>
+                <string name="toggles_style_title" >Toggle style
+                </string>
+                <string name="default_behavior" >Default behavior
+                </string>
+                <string name="ad_sunlight_mode_title" >Sunlight mode
+                </string>
+                <string name="github_akellar" >https://github.com/akellar
+                </string>
+                <string name="led_color_click" >Click on the LED to change the color
+                </string>
+                <string name="hardware_keys_action_in_app_search" >In-app search
+                </string>
+                <string name="increasing_ring_interval_title" >Increase interval
+                </string>
+                <string name="github_stevespear" >https://github.com/Stevespear426
+                </string>
+                <string name="mgerrit_activity_name" >mGerrit
+                </string>
+                <string name="lockscreen_target_save_error_title" >Error saving targets
+                </string>
+                <string name="aokp_website_title" >AOKP Website
+                </string>
+                <string name="choose_action_short_title" >Choose short action
+                </string>
+                <string name="weather_panel" >Weather panel
+                </string>
+                <string name="status_bar_network_stats_color_title" >Network speeds text color
+                </string>
+                <string name="status_bar_network_stats_update_title" >Update frequency
+                </string>
+                <string name="status_bar_notif_count_summary" >Display number of pending notifications in the Statusbar
+                </string>
+                <string name="ad_all_notifications_title" >All notifications
+                </string>
+                <string name="bottom_of_navbar" >Bottom of NavBar
+                </string>
+                <string name="dynamic_changelog_title" >Dynamic ChangeLog
+                </string>
+                <string name="time_2_days" >2 days
+                </string>
+                <string name="menu_ribbon_toggles" >Setup toggles
+                </string>
+                <string name="text" >Text
+                </string>
+                <string name="weather_custom_location_title" >Custom location
+                </string>
+                <string name="toggles_enable_haptic_feedback_summary" >Use haptic feedback when pressing toggles
+                </string>
+                <string name="toggle_settings" >Settings
+                </string>
+                <string name="error_creating_preview" >Error creating preview
+                </string>
+                <string name="spen_double_title" >Action on double tap
+                </string>
+                <string name="led_edit_button" >-
+                </string>
+                <string name="vib_cur_loaded_title" >Loaded:
+                </string>
+                <string name="recent_google_assist_summary" >Displays a button to launch Google Now in the Recent Apps window
+                </string>
+                <string name="navring_clear" >Clear action
+                </string>
+                <string name="bottom" >Bottom
+                </string>
+                <string name="header_summary_led" >@null
+                </string>
+                <string name="weather_show_location_title" >Show location
+                </string>
+                <string name="title_weather" >Weather Settings
+                </string>
+                <string name="time_2_5_seconds" >2.5 seconds
+                </string>
+                <string name="persist_file_xposed_summary" >Persist file app_process for Xposed framework
+                </string>
+                <string name="github_zaph" >https://github.com/Zaphod-Beeblebrox
+                </string>
+                <string name="summary_bt_audio_mode" >Define behavior of volume when A2DP is connected
+                </string>
+                <string name="show_with_dbm" >Show with dBm
+                </string>
+                <string name="menu" >Menu
+                </string>
+                <string name="notification_wallpaper_error" >No image found
+                </string>
+                <string name="navbar_width_help_title" >NavBar combined width help
+                </string>
+                <string name="title_settings_behavior" >Use default settings behavior
+                </string>
+                <string name="title_animation_no_override" >Prevent App Overrides
+                </string>
+                <string name="hardware_keys_appswitch_key_title" >Recents button
+                </string>
+                <string name="hide_signal_summary" >Checking this hides the signal bar indicator (updates when signal strength
+        changes)
+                </string>
+                <string name="persist_file_hosts_summary" >Persist hosts file
+                </string>
+                <string name="lockscreen_weather_cat" >Weather
+                </string>
+                <string name="led_test_ok" >OK
+                </string>
+                <string name="vib_stop" >Stop
+                </string>
+                <string name="toggle_brightness" >Brightness
+                </string>
+                <string name="direction_north_east" >NE
+                </string>
+                <string name="brightness_location_title" >Brightness location
+                </string>
+                <string name="custom_density" >custom
+                </string>
+                <string name="title_timeout_sec" >Screen Timeout
+                </string>
+                <string name="above_carrier_text" >Above carrier text
+                </string>
+                <string name="lockscreen_security_cat" >Security
+                </string>
+                <string name="lockscreen_unlimited_widgets_title" >Allow unlimited widgets
+                </string>
+                <string name="summary_flip_mode" >Define behavior of volume when you flip your phone face-down
+                </string>
+                <string name="open_market_summary" >Press back when done to return here.
+                </string>
+                <string name="toggle_choose_fasttoggle_side_summary" >Select the side that triggers the fast toggle
+                </string>
+                <string name="vibrations" >Vibrations
+                </string>
+                <string name="navigation_bar_alpha_title" >Statusbar and Navigation Bar opacity
+                </string>
+                <string name="lockscreen_weather_title" >Enable
+                </string>
+                <string name="multipane_ui_summary" >Checking this will enable the Dual Panel (Tablet) UI used by certain apps
+                </string>
+                <string name="custom_toggle_desc" >Each click causes the toggle to move to the next action. If your toggle has an
+        empty click action and no custom icon; the long click action\'s icon will be used.\nThis is useful for users who
+        want their click actions to simply cycle through toggle actions without launching anything.
+                </string>
+                <string name="title_show_reboot_keyguard" >Lockscreen reboot
+                </string>
+                <string name="user_mode_ui_summary" >Choose the style of the NavBar and Statusbar
+                </string>
+                <string name="hide_navbar_timeout_10000" >10 Sec
+                </string>
+                <string name="click_collapse" >On click
+                </string>
+                <string name="toggle_nfc" >NFC
+                </string>
+                <string name="weather_show_location_summary" >Show your location.
+                </string>
+                <string name="header_summary_summary" >@null
+                </string>
+                <string name="lockscreen_camera_widget_title" >Lockscreen camera widget
+                </string>
+                <string name="reset_toggles_title" >Reset toggles
+                </string>
+                <string name="title_lockscreens_targets" >Lockscreen Targets
+                </string>
+                <string name="enabled" >Enabled
+                </string>
+                <string name="circles_lock_wave_alpha_title" >Wave alpha
+                </string>
+                <string name="navigation_drawer_open" >Open navigation drawer
+                </string>
+                <string name="google_now" >Google Now
+                </string>
+                <string name="navbar_height_dialog_title" >Reboot required!
+                </string>
+                <string name="less_notification_sounds_title" >Less Frequent Notification sounds
+                </string>
+                <string name="title_show_volume_state_toggle" >Volume states
+                </string>
+                <string name="lockscreen_text_color_title" >Lockscreen text color
+                </string>
+                <string name="github_protekk" >https://github.com/ProTekk
+                </string>
+                <string name="two_targets" >2 targets
+                </string>
+                <string name="enable_custom_toggle" >To Unlock: enable a \"custom\" toggle here or in a Ribbon
+                </string>
+                <string name="custom_toggle_cat" >Custom toggle
+                </string>
+                <string name="lockscreen_options" >Lockscreen
+                </string>
+                <string name="toggle_favorite_contact" >Favorite Contact
+                </string>
+                <string name="lockscreen_target_longpress_summary" >Enables longpress options for lock screen targets
+                </string>
+                <string name="navbar_ring_cat" >Navigation Ring Targets
+                </string>
+                <string name="system_bar_height_title" >System Bar height
+                </string>
+                <string name="title_navring" >Navigation Ring
+                </string>
+                <string name="dialog_color_picker" >Color Picker
+                </string>
+                <string name="top_of_navbar" >Top of NavBar
+                </string>
+                <string name="weather_loc_warning_title" >Cannot retrieve location!
+                </string>
+                <string name="tablet_mode_ui" >Tablet - Combined NavBar and Statusbar
+                </string>
+                <string name="custom_density_dialog_button_got" >Got it!
+                </string>
+                <string name="no_clock" >No clock
+                </string>
+                <string name="skip_up_dclick" >Skip forward (no action)
+                </string>
+                <string name="toggle_swap_handle_side" >Drag handle on right
+                </string>
+                <string name="weather_9" >Drizzle
+                </string>
+                <string name="title_clock_ampm_entries" >AM/PM style
+                </string>
+                <string name="weather_4" >Thunderstorms
+                </string>
+                <string name="weather_3" >Severe Thunderstorms
+                </string>
+                <string name="toggle_statusbar" >StatusBar
+                </string>
+                <string name="weather_2" >Hurricane
+                </string>
+                <string name="vib_load" >Load
+                </string>
+                <string name="weather_1" >Tropical Storm
+                </string>
+                <string name="weather_8" >Freezing Drizzle
+                </string>
+                <string name="weather_7" >Mixed Snow and Sleet
+                </string>
+                <string name="weather_6" >Mixed Rain and Sleet
+                </string>
+                <string name="weather_5" >Mixed Rain and Snow
+                </string>
+                <string name="navbar_widgets" >Navigation Bar Widgets
+                </string>
+                <string name="lockscreen_calendar_range_title" >Time-range
+                </string>
+                <string name="weather_0" >Tornado
+                </string>
+                <string name="group_applications" >Applications
+                </string>
+                <string name="size_100_mb" >100mb
+                </string>
+                <string name="task_move_to_front_title" >Move To Front Animation
+                </string>
+                <string name="swipe_to_switch_title" >Swipe to switch
+                </string>
+                <string name="battery" >Battery
+                </string>
+                <string name="battery_bar_style_title" >Battery bar style
+                </string>
+                <string name="weather_statusbar_style" >Statusbar weather style
+                </string>
+                <string name="navring_target_reset_message" >Do you want to reset the Navigation Ring?
+                </string>
+                <string name="spen_down_title" >Action on swipe down
+                </string>
+                <string name="devs" >The Crew
+                </string>
+                <string name="navbar_icon_menu" >Custom icon
+                </string>
+                <string name="enable_stylus_pointer_summary" >Enable the mouse icon when using the S Pen
+                </string>
+                <string name="protekk_oclock" >ProTekk O\'Clock
+                </string>
+                <string name="lockscreen_targets_title" >Lockscreen targets
+                </string>
+                <string name="github_rohan32" >https://github.com/rohanmathur
+                </string>
+                <string name="notification_wallpaper_reset" >Remove notification background
+                </string>
+                <string name="recents" >Recents
+                </string>
+                <string name="icon_with_text" >Icon with text
+                </string>
+                <string name="regular_weekday" >Regular weekday
+                </string>
+                <string name="time_1_5_seconds" >1.5 seconds
+                </string>
+                <string name="lefty_mode_title" >Lefty mode
+                </string>
+                <string name="five_targets" >5 targets
+                </string>
+                <string name="toggle_action_title_alt" >Longpress action %1$s &amp; icon
+                </string>
+                <string name="ribbon_toggles_button_title" >Toggles button on bottom
+                </string>
+                <string name="task_open_title" >Task Open Animation
+                </string>
+                <string name="navigation_bar_menu_arrow_keys_title" >Keyboard arrow keys
+                </string>
+                <string name="screenshot" >Screenshot
+                </string>
+                <string name="ribbon_opacity_title" >Opacity of swipe Ribbon
+                </string>
+                <string name="battery_bar" >Battery bar location
+                </string>
+                <string name="spen_enable_summary" >Set custom actions for S Pen gestures
+                </string>
+                <string name="toggle_enable_fasttoggle_title" >Enable fast toggle
+                </string>
+                <string name="led_time_seconds" >" seconds"
+                </string>
+                <string name="lockscreen_wallpaper_summary" >Set or remove the current lockscreen background
+                </string>
+                <string name="github_championswimmer" >https://github.com/championswimmer
+                </string>
+                <string name="title_flip_mode" >Face down audio mode
+                </string>
+                <string name="header_statusbar" >Statusbar
+                </string>
+                <string name="center_mirrored" >Center-mirrored
+                </string>
+                <string name="time_0_seconds_off" >Off
+                </string>
+                <string name="battery_bar_color" >Battery bar color
+                </string>
+                <string name="menu_lockscreens_reset" >Reset lockscreen wallpaper
+                </string>
+                <string name="high" >high
+                </string>
+                <string name="title_navbar_timeout" >Hidden NavBar Timeout
+                </string>
+                <string name="header_summary_clock" >@null
+                </string>
+                <string name="volume_music_controls_title" >Volume music controls
+                </string>
+                <string name="toggle_signal" >Signal
+                </string>
+                <string name="navbar_enable_dialog_Positive" >Reboot now!
+                </string>
+                <string name="dark_ui" >Dark AOKP
+                </string>
+                <string name="lockscreen_calendar_title" >Enable
+                </string>
+                <string name="ad_redisplay_never" >Never
+                </string>
+                <string name="lockscreen_calendar_interval_title" >Flip interval
+                </string>
+                <string name="rotate_180_summary" >Checking this allows your device to rotate upside down
+                </string>
+                <string name="recents_gb" >Recents (GB style)
+                </string>
+                <string name="disable_bootanimation_title" >Disable boot animation
+                </string>
+                <string name="enable_hiding_systembar" >To Unlock: \"enable hidden SystemBar\"
+                </string>
+                <string name="ribbon_bottom_warning_title" >You can not use swipe from bottom with NavBar enabled, must use Navbar
+        Auto Hide or manually hide the NavBar.
+                </string>
+                <string name="menu_ribbon_na" >Not available
+                </string>
+                <string name="reset_toggles_summary" >Reset all toggles and their order
+                </string>
+                <string name="navbar_enable_dialog_title" >Reboot required!
+                </string>
+                <string name="led_off" >LED Off
+                </string>
+                <string name="default_jb_with_invincible_icons_when_hidden" >Default behavior with invisible icons when hidden
+                </string>
+                <string name="long_collapse" >On long click
+                </string>
+                <string name="header_summary_installer" >@null
+                </string>
+                <string name="back_one_dclick" >Reverse state
+                </string>
+                <string name="lockscreen_calendar_sources_title" >Calendar sources
+                </string>
+                <string name="battery_not_summary" >Battery icon will show up where the clear all button shows up
+                </string>
+                <string name="toggles_style_summary" >Tiles, traditional, or scrollable
+                </string>
+                <string name="time_3_5_minutes" >3.5 minutes
+                </string>
+                <string name="enable_clock_location" >To Unlock: enable a \"clock style\"
+                </string>
+                <string name="bootanimation_preview" >Bootanimation preview
+                </string>
+                <string name="github_bmc08gt" >https://github.com/BMc08GT
+                </string>
+                <string name="clock_color_title" >Clock color
+                </string>
+                <string name="user_mode_ui" >UI Mode
+                </string>
+                <string name="toggle_gps" >GPS
+                </string>
+                <string name="enable_noti_wallpaper" >To Unlock: enable phone or phablet \"UI mode\" and set a
+        \"notification background\"
+                </string>
+                <string name="save_error" >Could not save targets! You must have at least one unlock target!
+                </string>
+                <string name="clock" >Clock
+                </string>
+                <string name="toggle_style_traditional" >Traditional
+                </string>
+                <string name="center" >Centered
+                </string>
+                <string name="title_systembar_timeout" >Hidden SystemBar Timeout
+                </string>
+                <string name="toggle_style_scrollable" >Scrollable
+                </string>
+                <string name="hide_extras" >Hide Extras
+                </string>
+                <string name="spen_left_title" >Action on swipe left
+                </string>
+                <string name="aokp" >Android Open Kang Project
+                </string>
+                <string name="recents_cat" >Recents
+                </string>
+                <string name="reboot_summary" >Come back here after the reboot and complete the rest of the steps!
+                </string>
+                <string name="toggles_order_title" >Toggle order
+                </string>
+                <string name="weather_10" >Freezing Rain
+                </string>
+                <string name="weather_11" >Showers
+                </string>
+                <string name="weather_12" >Showers
+                </string>
+                <string name="transparency_dialog_statusbar" >Statusbar
+                </string>
+                <string name="weather_13" >Snow Flurries
+                </string>
+                <string name="weather_14" >Light Snow Showers
+                </string>
+                <string name="custom_density_dialog_title" >"WARNING!"
+                </string>
+                <string name="show_overflow_toast_disable" >The menu overflow button may not be hidden until apps are restarted
+                </string>
+                <string name="window_app_hide_title" >Choose apps to hide
+                </string>
+                <string name="lockscreen_calendar_flip_summary" >If enabled, the widget will display multiple events by flipping
+        between them.
+                </string>
+                <string name="hardware_keys_action_voice_search" >Voice search
+                </string>
+                <string name="weather_15" >Blowing Snow
+                </string>
+                <string name="weather_16" >Snow
+                </string>
+                <string name="title_show_navbar_hide" >System Bar toggles
+                </string>
+                <string name="hardware_keys_volume_keys_title" >Volume buttons
+                </string>
+                <string name="weather_17" >Hail
+                </string>
+                <string name="title_show_screenshot" >Screenshot
+                </string>
+                <string name="weather_19" >Dust
+                </string>
+                <string name="toggle_swagger" >Swagger
+                </string>
+                <string name="weather_18" >Sleet
+                </string>
+                <string name="battery_bar_animate_summary" >Enabling the charging animation may result in a poor user experience.
+        Enable at your own discretion.
+                </string>
+                <string name="navbar_qty_summary" >Choose the number of navigation buttons
+                </string>
+                <string name="time_5_minutes" >5 minutes
+                </string>
+                <string name="fast_charge_not_supported" >Fast Charge is not supported by the current kernel.
+                </string>
+                <string name="app_window_space_title" >Vertical icon spacing
+                </string>
+                <string name="lockscreen_color_summary" >Set the color of many elements of the lockscreen
+                </string>
+                <string name="persist_enable_summary" >Enable data to persist across installs
+                </string>
+                <string name="toggle_clock" >Clock
+                </string>
+                <string name="ics_color" >Holo
+                </string>
+                <string name="github_DAGr8" >https://github.com/DAGr8
+                </string>
+                <string name="lcd_density_summary" >unknown
+                </string>
+                <string name="title_animation_controls" >Animations
+                </string>
+                <string name="no_collapse" >Never collapse
+                </string>
+                <string name="glow_times_off" >Off
+                </string>
+                <string name="size_36_dp" >36 dp
+                </string>
+                <string name="weather_20" >Foggy
+                </string>
+                <string name="led_delete_app" >Delete
+                </string>
+                <string name="weather_23" >Blustery
+                </string>
+                <string name="weather_24" >Windy
+                </string>
+                <string name="weather_21" >Haze
+                </string>
+                <string name="time_10_minutes" >10 minutes
+                </string>
+                <string name="weather_22" >Smoky
+                </string>
+                <string name="signal_style" >Signal indicator style
+                </string>
+                <string name="weather_27" >Mostly Cloudy
+                </string>
+                <string name="weather_28" >Mostly Cloudy
+                </string>
+                <string name="profile_reset_title" >Reset
+                </string>
+                <string name="notifications" >Notifications
+                </string>
+                <string name="weather_25" >Cold
+                </string>
+                <string name="header_summary_power_menu" >@null
+                </string>
+                <string name="lockscreen_torch_off" >Off
+                </string>
+                <string name="weather_26" >Cloudy
+                </string>
+                <string name="hardware_keys_double_tap_title" >Double tap action
+                </string>
+                <string name="navbar_enable_bar" >Enable bar
+                </string>
+                <string name="weather_29" >Partly Cloudy
+                </string>
+                <string name="navbar_cat" >NavBar
+                </string>
+                <string name="persist_file_xposed_notinstalled" >XposedInstaller is not installed
+                </string>
+                <string name="lockscreen_minimize_challenge_summary" >Set whether the lockscreen challenge is minimized when the
+        screen is turned on.
+                </string>
+                <string name="title_clock_doubleclick" >Clock double click actions
+                </string>
+                <string name="summary_pref_powersaving_data_screen_off_delay" >How long to wait before applying data action?
+                </string>
+                <string name="navigation_bar_width_summary" >Navigation Bar height if the bar is along a side
+                </string>
+                <string name="ribbon_icon_space_title" >Ribbon icon spacing
+                </string>
+                <string name="weather_30" >Partly Cloudy
+                </string>
+                <string name="stock_density_title" >1. Change LCD Density to stock value
+                </string>
+                <string name="weather_31" >Clear
+                </string>
+                <string name="time_4_minutes" >4 minutes
+                </string>
+                <string name="lefty_mode_summary" >Swap NavBar location (requires UI restart)
+                </string>
+                <string name="lockscreen_calendar_dialog" >Choose which calendars to use
+                </string>
+                <string name="custom_app" >Custom app
+                </string>
+                <string name="weather_36" >Hot
+                </string>
+                <string name="lockscreen_calendar_flip_title" >Multiple events
+                </string>
+                <string name="weather_37" >Isolated Thunderstorms
+                </string>
+                <string name="toggle_data" >Data
+                </string>
+                <string name="weather_38" >Scattered Thunderstorms
+                </string>
+                <string name="weather_39" >Scattered Thunderstorms
+                </string>
+                <string name="time_4_seconds" >4 seconds
+                </string>
+                <string name="weather_32" >Sunny
+                </string>
+                <string name="weather_33" >Fair
+                </string>
+                <string name="toggle_dialog_arrange_title" >Toggle setup
+                </string>
+                <string name="weather_34" >Fair
+                </string>
+                <string name="weather_35" >Mixed Rain and Hail
+                </string>
+                <string name="status_bar_show_network_stats_title" >Show network speeds
+                </string>
+                <string name="time_60_minutes" >60 minutes
+                </string>
+                <string name="custom_carrier_label_notset" >Custom label currently not set
+                </string>
+                <string name="spen_up_title" >Action on swipe up
+                </string>
+                <string name="summary_down_sec" >Time required for your phone to be considered face down
+                </string>
+                <string name="hex_hint" >#FF000000
+                </string>
+                <string name="insult_jerk" >Jerk!
+                </string>
+                <string name="enable_hiding_navbar" >To Unlock: \"enable hidden NavBar\"
+                </string>
+                <string name="weather_statusbar_hide" >Weather panel hide options
+                </string>
+                <string name="weather_41" >Heavy Snow
+                </string>
+                <string name="stock_density_changed_summary" >"Density set to: "
+                </string>
+                <string name="weather_42" >Scattered Snow Showers
+                </string>
+                <string name="set_custom_density_title" >Set custom density
+                </string>
+                <string name="boot_action_summary" >Will launch state one on boot
+                </string>
+                <string name="weather_40" >Scattered Showers
+                </string>
+                <string name="notification_cat" >Notification
+                </string>
+                <string name="weather_47" >Isolated Thundershowers
+                </string>
+                <string name="tablet_ui_summary" >This will switch to Tablet UI (requires reboot)
+                </string>
+                <string name="weather_45" >Thundershowers
+                </string>
+                <string name="circles_lock_wave_color_title" >Wave color
+                </string>
+                <string name="weather_46" >Snow Showers
+                </string>
+                <string name="ad_excluded_apps_summary" >Excluded applications will not show up in active display.
+                </string>
+                <string name="weather_43" >Scattered Snow Showers
+                </string>
+                <string name="weather_44" >Partly Cloudy
+                </string>
+                <string name="navigation_bar_height_title" >Navigation Bar height
+                </string>
+                <string name="ribbon_quicksettings" >Quick settings Ribbon
+                </string>
+                <string name="set_custom_bootanimation" >Set custom...
+                </string>
+                <string name="hide_navbar_timeout_5000" >5 Sec
+                </string>
+                <string name="always" >Always
+                </string>
+                <string name="time_1_week" >1 week
+                </string>
+                <string name="toggle_action_title" >Action %1$s &amp; icon
+                </string>
+                <string name="tablet_ui" >Force Tablet UI
+                </string>
+                <string name="lockscreen_auto_rotate_summary" >Lockscreen will have ability to rotate via device orientation. This is
+        independent of Auto-rotation in display.
+                </string>
+                <string name="toggle_button_alpha_title" >Toggle indicator alpha
+                </string>
+                <string name="aokp_irc_title" >Join us on IRC
+                </string>
+                <string name="time_6_hours" >6 hours
+                </string>
+                <string name="lockscreen_calendar_use_colors_title" >Use colors
+                </string>
+                <string name="icon_only" >Icon only
+                </string>
+                <string name="title_statusbar_battery" >Statusbar Battery
+                </string>
+                <string name="take_screenshot" >Take screenshot
+                </string>
+                <string name="custom_help_title" >How it works
+                </string>
+                <string name="ad_pocket_mode_off" >Off
+                </string>
+                <string name="kill_app" >Kill app
+                </string>
+                <string name="led_time_off" >Time Light is off
+                </string>
+                <string name="volume_rocker_wake_summary" >Wake screen with volume rockers
+                </string>
+                <string name="four_targets" >4 targets
+                </string>
+                <string name="vibration_detailed_help" >You can create your custom vibration patterns in 5 simple steps:\n
+        - Tap New/Reset\n
+        - Tap Record\n
+        - Record your pattern by hitting the TAP! button\n
+        - Tap Stop\n
+        - Tap Save, enter a name and hit OK\n\n
+        You can check what you just recorded by tapping the Play button.\n
+        If you wish to modify an already saved pattern, tap Load, choose a pattern, re-record, and save it again (it
+        will be overwritten, even if you choose another name).\n
+        To delete a pattern, tap Delete, choose your pattern and tap Delete again. You cannot delete the Default
+        vibration.\n\n
+        You can choose the default vibration for your phone calls in Phone/Settings or in Settings/Sound.\n
+        You can assign custom vibration patterns to your contacts in the People app: after loading a contact tap
+        Menu/Set vibration.
+                </string>
+                <string name="toggles_per_row_summary" >Choose how many toggles to show per row
+                </string>
+                <string name="system_bar_height_landscape_summary" >System Bar height while in landscape
+                </string>
+                <string name="direction_north_west" >NW
+                </string>
+                <string name="custom_density_summary_invalid" >"INVALID DENSITY!"
+                </string>
+                <string name="title_installer" >Installer Settings
+                </string>
+                <string name="github_sixstringsg" >https://github.com/sixstringsg
+                </string>
+                <string name="hardware_keys_assist_key_title" >Search button
+                </string>
+                <string name="lockscreen_unlock" >Unlock
+                </string>
+                <string name="header_summary_signal" >@null
+                </string>
+                <string name="both" >Both
+                </string>
+                <string name="title_clock_longclick" >Clock long click actions
+                </string>
+                <string name="ribbon_insert" >Insert button
+                </string>
+                <string name="ribbon_color_title" >Color of swipe Ribbon
+                </string>
+                <string name="flip_cat_title" >Face Down Action
+                </string>
+                <string name="bootani_cat" >Boot animation
+                </string>
+                <string name="aokp_review_title" >mGerrit
+                </string>
+                <string name="navring_short" >Short action
+                </string>
+                <string name="lockscreen_target_save_error_msg" >You must have at least one target that unlocks the screen!
+                </string>
+                <string name="persist_enable" >Enable Persistence
+                </string>
+                <string name="vib_TAP" >TAP!
+                </string>
+                <string name="ad_excluded_apps_title" >Excluded applications
+                </string>
+                <string name="led_test_notification" >Test LED
+                </string>
+                <string name="title_statusbar_clock" >Statusbar Clock
+                </string>
+                <string name="lockscreen_all_widgets_title" >Allow all widgets
+                </string>
+                <string name="enable_clock_weekday_summary" >Abbreviated day of the week before the time
+                </string>
+                <string name="time_1_minute" >1 minute
+                </string>
+                <string name="title_led" >LED Control
+                </string>
+                <string name="off" >Off
+                </string>
+                <string name="navbar_widgets_reset" >Reset widgets
+                </string>
+                <string name="headphones_mode_silent" >Silent mode
+                </string>
+                <string name="match_icon_action_summary" >Useful for aligning task to displayed icon per your specific usage
+                </string>
+                <string name="github_k900" >https://github.com/K900
+                </string>
+                <string name="screen_off" >Screen off
+                </string>
+                <string name="vibrate_intensity_def" >Default
+                </string>
+                <string name="active_display" >Active Display
+                </string>
+                <string name="toggle_dialog_add_toggles" >Select toggles to add
+                </string>
+                <string name="match_icon_action_title" >Launch displayed action
+                </string>
+                <string name="ram_bar" >Recents RAM bar
+                </string>
+                <string name="flip_dialog_msg" >When you flip your phone over: it will go in to either Vibrate or Silent Mode
+        depending on what you have chosen. It will take 1.5 seconds (default) to change once flipped over. It will then
+        disable the flipped mode once the screen is turned on and 15 seconds (default) has passed. NOTE: **You will need
+        to turn the screen back on once flipped over to re-enable sound (once the screen timeout time has been
+        reached)**
+                </string>
+                <string name="menu_nav_bar_reset" >Reset nav bar
+                </string>
+                <string name="navbar_height_dialog_button_reboot" >Reboot now!
+                </string>
+                <string name="enable_tablet_ui" >To Unlock: enable tablet \"UI mode\"
+                </string>
+                <string name="spen_gestures_cat" >S Pen Gestures
+                </string>
+                <string name="summary_navring_amount" >Choose number of targets in the Navigation Ring
+                </string>
+                <string name="circlemod" >CircleMOD
+                </string>
+                <string name="icon_size_20" >Medium
+                </string>
+                <string name="time_4_days" >4 days
+                </string>
+                <string name="ribbon_bottom_enable_title" >Enable swipe from bottom
+                </string>
+                <string name="time_0_2_seconds" >.2 seconds
+                </string>
+                <string name="navbar_color_cat" >Colors and Transparency
+                </string>
+                <string name="disabled" >Disabled
+                </string>
+                <string name="choose_action_long_title" >Choose long action
+                </string>
+                <string name="regular" >Regular
+                </string>
+                <string name="time_3_5_seconds" >3.5 seconds
+                </string>
+                <string name="brightness_slider_title" >Statusbar brightness slider
+                </string>
+                <string name="icon_size_15" >Small
+                </string>
+                <string name="very_high" >very high
+                </string>
+                <string name="recent_kill_all" >Enable Kill-All button
+                </string>
+                <string name="interface_navring_settings_summary" >@null
+                </string>
+                <string name="home" >Home
+                </string>
+                <string name="direction_north" >N
+                </string>
+                <string name="toggle_collapse_generic_title" >Collapse shade on toggle click
+                </string>
+                <string name="voiceassist" >Voice commands
+                </string>
+                <string name="glow_times_quick" >Quick
+                </string>
+                <string name="choose_action_title" >Choose action
+                </string>
+                <string name="header_system" >System
+                </string>
+                <string name="summary_pref_powersaving_pref_mode" >@null
+                </string>
+                <string name="insult_protekk" >ProTekk!
+                </string>
+                <string name="navigation_bar_glow_tint_summary" >Set the color of the glow that is displayed when you click a NavBar
+        button
+                </string>
+                <string name="persist_file_hosts" >Persist Hosts
+                </string>
+                <string name="toggle_fcharge" >Fast Charge
+                </string>
+                <string name="system_power_crt_mode_dialog_title" >Show CRT animation
+                </string>
+                <string name="opposite_toggles" >Hide opposite of toggles
+                </string>
+                <string name="increasing_ring_min_volume_title" >Ringing start volume
+                </string>
+                <string name="hide_navbar_timeout_30000" >30 Sec
+                </string>
+                <string name="enable_wifi_text" >To Unlock: set \"WiFi signal indicator style\" to display text
+                </string>
+                <string name="none" >None
+                </string>
+                <string name="ad_brightness_title" >Notification brightness
+                </string>
+                <string name="ribbon_drag_handle_height_title" >Drag handle thickness
+                </string>
+                <string name="toggle_enable_fasttoggle_summary" >Overrides default behavior
+                </string>
+                <string name="github_khasmek" >https://github.com/KhasMek
+                </string>
+                <string name="toggle_quickrecord" >Quick Record
+                </string>
+                <string name="custom_carrier_label_explain" >Please enter a new label. Enter an empty label to revert to stock
+        label.
+                </string>
+                <string name="time_30_seconds" >30 seconds
+                </string>
+                <string name="apply" >Apply
+                </string>
+                <string name="led_test_notification_message_now" >"Now testing LED for: "
+                </string>
+                <string name="toggle_style_title" >Toggle style
+                </string>
+                <string name="open_ime_switcher" >Open IME Switcher
+                </string>
+                <string name="colors" >Colors
+                </string>
+                <string name="lockscreen_glow_torch_text" >GlowPad torch
+                </string>
+                <string name="size_25_mb" >25mb
+                </string>
+                <string name="multi_select_title" >Select targets to add
+                </string>
+                <string name="direction_east" >E
+                </string>
+                <string name="time_9_seconds" >9 seconds
+                </string>
+                <string name="custom_button_cat" >Custom toggle actions
+                </string>
+                <string name="glow_times_title" >Button glow animation time
+                </string>
+                <string name="notification_wallpaper_dialog" >Background preview
+                </string>
+                <string name="animation_duration_default" >Default
+                </string>
+                <string name="wallpaper_intra_close_title" >Wallpaper Intra Close Animation
+                </string>
+                <string name="title_spen" >S Pen Gestures
+                </string>
+                <string name="navbar_actiontitle_menu" >Action: %1$s
+                </string>
+                <string name="spen_enable" >Enable S Pen Gestures
+                </string>
+                <string name="toggle_wifi_tether" >Wifi Tether
+                </string>
+                <string name="navbar_widgets_title" >Configure widgets
+                </string>
+                <string name="headphones_mode_vibrate" >Vibrate mode
+                </string>
+                <string name="enable_battery_bar" >To Unlock: enable a \"battery bar location\"
+                </string>
+                <string name="spen_long_title" >Action on longpress
+                </string>
+                <string name="system_power_crt_screen_off_title" >CRT screen off
+                </string>
+                <string name="ribbon_bottom_warning_hiding" >With NavBar Auto Hide enabled, longpress the activation area to
+        display ribbon.
+                </string>
+                <string name="summary_animation_no_override" >Prevent apps from overriding transitions.
+                </string>
+                <string name="ad_redisplay_2h" >2 hours
+                </string>
+                <string name="github_dhacker29" >https://github.com/dhacker29
+                </string>
+                <string name="ad_show_date_summary" >Show the date above the clock
+                </string>
+                <string name="header_summary_performance" >@null
+                </string>
+                <string name="toggle_silent" >Silent
+                </string>
+                <string name="battery_bar_thickness_title" >Battery bar thickness
+                </string>
+                <string name="ribbon_swipe_left" >Left swipe Ribbon
+                </string>
+                <string name="toggle_text_color_title" >Toggle text color
+                </string>
+                <string name="open_market_summary_could_not_open" >"Couldn't open the market! If you're sure it's installed, open it
+        yourself from the launcher."
+                </string>
+                <string name="both_collapse" >Both click and long click
+                </string>
+                <string name="toggle_style_summary" >Whether to show icons or text on your toggles.
+                </string>
+                <string name="navigation_bar_menu_arrow_keys_summary" >Checking this enables arrow keys in the Navigation Bar while
+        typing
+                </string>
+                <string name="hardware_keys_action_nothing" >No action
+                </string>
+                <string name="aokp_review_summary" >View AOKP\'s and AOSP\'s Gerrit Review instances quickly and easily
+                </string>
+                <string name="title_clock_shortclick" >Clock short click actions
+                </string>
+                <string name="circles_lock_halo_color_title" >Halo color
+                </string>
+                <string name="system_bar_height_landscape_title" >System Bar height landscape
+                </string>
+                <string name="ribbon_animation_duration_title" >Animation duration
+                </string>
+                <string name="lockscreen_target_reset_message" >Delete all user created lockscreen target and restore to default?
+                </string>
+                <string name="header_summary_hardware_keys" >@null
+                </string>
+                <string name="navbar_enable_dialog_msg" >You
+<b>
+should
+                    </b>        reboot right now to make sure everything works properly!
+                </string>
+                <string name="transparency_dialog_navbar" >Navigation Bar
+                </string>
+                <string name="lockscreen_target_edit_msg" >Select or change the desired application or activity and the associated
+        icon
+                </string>
+                <string name="window_color_title" >Window color
+                </string>
+                <string name="button_transparency_title" >Nav button transparency
+                </string>
+                <string name="ad_redisplay_1h" >1 hour
+                </string>
+                <string name="no_dclick" >No action
+                </string>
+                <string name="menu_ribbon_apps" >Reset apps
+                </string>
+                <string name="toggle_lte" >LTE
+                </string>
+                <string name="lockscreen_battery_summary" >Always show battery percentage on the lockscreen
+                </string>
+                <string name="default_jb_behavior" >Default behavior
+                </string>
+                <string name="lockscreen_weather_type_summary" >Whether to show graphical or text weather information.
+                </string>
+                <string name="ad_redisplay_1m" >1 minute
+                </string>
+                <string name="lockscreen_calendar_cat" >Calendar
+                </string>
+                <string name="tools" >Tools
+                </string>
+                <string name="toggle_2g" >2G
+                </string>
+                <string name="toggle_btn_disabled_color_title" >Disabled indicator color
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="signal" >Signal
+                </string>
+                <string name="navbar_widget_summary" >Widget %1$s of %2$s
+                </string>
+                <string name="navring_enable_long" >Enable Longpress for Navigation Ring
+                </string>
+                <string name="laserbeam" >laserbeam
+                </string>
+                <string name="lcd_density_title" >LCD Density
+                </string>
+                <string name="multipane_ui" >Enable Dual Panel
+                </string>
+                <string name="toggle_favcontact_summary" >Choose your favorite contact
+                </string>
+                <string name="status_bar_network_title" >Network traffic
+                </string>
+                <string name="lockscreen_calendar_interval_summary" >Choose the animation speed in seconds.
+                </string>
+                <string name="cancel" >Cancel
+                </string>
+                <string name="spen_extras_cat" >S Pen extras
+                </string>
+                <string name="led_options" >LED
+                </string>
+                <string name="flip_dialog_title" >How it works
+                </string>
+                <string name="ad_show_date_title" >Show date
+                </string>
+                <string name="title_toggles_autohide" >Auto-hide toggles
+                </string>
+                <string name="size_42_dp" >42 dp
+                </string>
+                <string name="title_charging_led_on" >Enable LED while charging (requires reboot)
+                </string>
+                <string name="lockscreen_target_save" >Lockscreen targets saved
+                </string>
+                <string name="enable_volume_options" >Enable volume-panel
+                </string>
+                <string name="time_3_minutes" >3 minutes
+                </string>
+                <string name="enable_menu_location" >To Unlock: enable a \"menu location\"
+                </string>
+                <string name="navring_target_save" >Navigation Rings saved
+                </string>
+                <string name="time_3_days" >3 days
+                </string>
+                <string name="alpha_dialog_title" >Set alpha value
+                </string>
+                <string name="toggle_longpress_title" >Longpress action %1$s
+                </string>
+                <string name="size_1_dp" >1 dp
+                </string>
+                <string name="transparency_dialog_linked_transparency" >Link Statusbar &amp; NavBar alpha
+                </string>
+                <string name="ribbon_left_enable_title" >Enable swipe from left
+                </string>
+                <string name="circles_lock_cat_title" >Circle lockscreen settings
+                </string>
+                <string name="menu_power" >Power menu
+                </string>
+                <string name="alt_signal_title" >Alt signal indicator layout
+                </string>
+                <string name="led_custom_message" >"Would you like to change the app: "
+                </string>
+                <string name="led_change_brightness" >Change brightness
+                </string>
+                <string name="show_overflow_toast_enable" >The menu overflow button may not be visible until apps are restarted
+                </string>
+                <string name="navbar_widgets_shiftLeft" >Shift left
+                </string>
+                <string name="ad_show_ampm_title" >Show AM/PM
+                </string>
+                <string name="lockscreen_unlimited_widgets_summary" >Warning** Adding too many widgets can cause lag issues with
+        lockscreen.
+                </string>
+                <string name="dynamic_changelog_summary" >Interactive changelog pulled live from our Gerrit instance
+                </string>
+                <string name="same_toggles" >Hide with toggles
+                </string>
+                <string name="small_weekday" >Small weekday
+                </string>
+                <string name="custom_app_icon_successfully" >"'s icon set successfully!"
+                </string>
+                <string name="wakeup_when_plugged_unplugged_summary" >Wake up device if a charger is plugged in or unplugged
+                </string>
+                <string name="navbar_hide_enable_title" >Enable Hidden NavBar
+                </string>
+                <string name="toggle_vibrate" >Vibrate
+                </string>
+                <string name="enable_stylus_pointer_title" >Enable S Pen pointer
+                </string>
+                <string name="show_overflow_summary" >Display the 3-dot overflow menu button within apps
+                </string>
+                <string name="navbar_qty_title" >Navigation button quantity
+                </string>
+                <string name="about_aokp" >About AOKP
+                </string>
+                <string name="ribbon_animation_type_title" >Animation style
+                </string>
+                <string name="clear_market_data_cleared" >Market data cleared
+                </string>
+                <string name="weather_refreshing" >Requesting weather update!
+                </string>
+                <string name="menu_ribbon_hide" >Hide apps
+                </string>
+                <string name="ad_redisplay_5h" >5 hours
+                </string>
+                <string name="vib_dialog_name" >Name:
+                </string>
+                <string name="nav_widgets" >NavBar widgets
+                </string>
+                <string name="ad_redisplay_5m" >5 minutes
+                </string>
+                <string name="toggles_per_row_title" >Toggles per row
+                </string>
+                <string name="size_3_dp" >3 dp
+                </string>
+                <string name="ad_redisplay_title" >Redisplay notifications
+                </string>
+                <string name="battery_bar_animate_title" >Enable charging animation
+                </string>
+                <string name="led_change_app" >Change
+                </string>
+                <string name="status_bar_notif_count_title" >Show notification count
+                </string>
+                <string name="width_land_title" >CombinedBar width land
+                </string>
+                <string name="header_summary_navigation_bar" >@null
+                </string>
+                <string name="always_on" >Always visible
+                </string>
+                <string name="ad_text_title" >Notification text
+                </string>
+                <string name="lockscreen_camera" >Camera
+                </string>
+                <string name="use_custom_app_title" >Use custom application
+                </string>
+                <string name="glow_times_normal" >Normal
+                </string>
+                <string name="task_close_title" >Task Close Animation
+                </string>
+                <string name="ribbon_chooser_instructions" >Select which Ribbon to setup.
+                </string>
+                <string name="navigation_bar_height_landscape_summary" >Navigation Bar height while in landscape
+                </string>
+                <string name="lockscreen_stock_music_layout_summary" >Use the stock layout when playing music.
+                </string>
+                <string name="drag_handle_width_title" >Drag Handle Width
+                </string>
+                <string name="enable_spen_gestures" >To Unlock: \"enable S Pen gestures\" 
+                </string>
+                <string name="navigation_bar_width_title" >Navigation Bar width
+                </string>
+                <string name="title_ribbon" >Ribbons
+                </string>
+                <string name="show_signal_bars" >Show signal bars
+                </string>
+                <string name="creating_preview" >Creating preview...
+                </string>
+                <string name="hide_navbar_timeout_1500" >1.5 Sec
+                </string>
+                <string name="system_bar_height_summary" >System Bar height while in portrait
+                </string>
+                <string name="hardware_keys_action_search" >Search assistant
+                </string>
+                <string name="donate_aokp" >https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG
+                </string>
+                <string name="weather_custom_location_dialog_title" >Set your location
+                </string>
+                <string name="title_performance" >Performance Settings
+                </string>
+                <string name="add_toggles" >Change toggles
+                </string>
+                <string name="time_2_5_minutes" >2.5 minutes
+                </string>
+                <string name="ribbon_instructions" >Press icons to select actions or delete.\nPress menu for more options.
+                </string>
+                <string name="navigation_bar_glow_tint_title" >Navigation Bar glow color
+                </string>
+                <string name="header_summary_toggles" >@null
+                </string>
+                <string name="title_bt_audio_mode" >Bluetooth A2DP connected action
+                </string>
+                <string name="ribbon_targets_cat" >Ribbon options
+                </string>
+                <string name="rotate_180_title" >Allow 180-degree rotation
+                </string>
+                <string name="hardware_keys_short_press_title" >Short press action
+                </string>
+                <string name="lockscreen_wallpaper_pick" >New lockscreen background
+                </string>
+                <string name="statusbar_notifications" >Notifications
+                </string>
+                <string name="size_30_dp" >30 dp
+                </string>
+                <string name="navbar_widget_summary_add" >Click to add Widget
+                </string>
+                <string name="lockscreen_glow_torch_summary" >Longpressing the center of the lock ring or navigation ring will
+        turn torch on.  Release finger to turn torch off.
+                </string>
+                <string name="transparency_dialog_title" >Transparency settings
+                </string>
+                <string name="activity_open_title" >Activity Open Animation
+                </string>
+                <string name="about_aokp_summary" >@null
+                </string>
+                <string name="github_kwes" >https://github.com/kwes1020
+                </string>
+                <string name="github_whitehawk" >https://github.com/Whitehawkx
+                </string>
+                <string name="lockscreen_options_info" >Touch text to get summary of each option
+                </string>
+                <string name="ribbon_button_colorize_title" >Action icons match text color
+                </string>
+                <string name="summary_pref_navigation_menu_display" >Define how and when you want the menu buttons to appear
+                </string>
+                <string name="title_show_power_saver" >Power Saver
+                </string>
+                <string name="wallpaper_close_title" >Wallpaper Close Animation
+                </string>
+                <string name="ribbon_long_swipe_title" >Swipe area longswipe
+                </string>
+                <string name="increasing_ring_interval_10seconds" >10 seconds
+                </string>
+                <string name="hide_navbar_timeout_15000" >15 Sec
+                </string>
+                <string name="center_clock" >Center clock
+                </string>
+                <string name="show_4g_for_lte_title" >Use 4G icon on LTE
+                </string>
+                <string name="rotate_270_title" >Allow 270-degree rotation
+                </string>
+                <string name="navigation_bar" >Navigation Bar
+                </string>
+                <string name="title_hardware_keys" >Hardware Keys
+                </string>
+                <string name="general_ui" >General UI
+                </string>
+                <string name="ad_pocket_mode_notifications" >Notifications only
+                </string>
+                <string name="enable_ribbon_text_summary" >Enable the app name text below the icon
+                </string>
+                <string name="lockscreen_calendar_range_summary" >Select the time-range to be displayed.
+                </string>
+                <string name="longpress_to_kill_summary" >Holding the hardware Back button will kill the activity in the foreground
+                </string>
+                <string name="display_cat" >Display
+                </string>
+                <string name="text_only" >Text only
+                </string>
+                <string name="boot_action_title" >State one at boot
+                </string>
+                <string name="system_power_crt_mode_title" >CRT animation mode
+                </string>
+                <string name="github_roman" >https://github.com/romanbb
+                </string>
+                <string name="led_custom_app" >Selected App
+                </string>
+                <string name="toggle_wifi" >Wi-Fi
+                </string>
+                <string name="github_adam" >https://github.com/syaoran12
+                </string>
+                <string name="time_2_hours" >2 hours
+                </string>
+                <string name="back" >Back
+                </string>
+                <string name="title_about" >About AOKP
+                </string>
+                <string name="toggle_collapse_generic_summary" >Close shade on all generic toggle actions
+                </string>
+                <string name="custom_toggle_okay" >Dismiss
+                </string>
+                <string name="direction_south_east" >SE
+                </string>
+                <string name="location_unavailable" >Unable to retrieve location information for weather update
+                </string>
+                <string name="title_statusbar_signal" >Statusbar Signal
+                </string>
+                <string name="glow_times_superquick" >Super quick
+                </string>
+                <string name="vib_dialog_text_entry" >Save vibration
+                </string>
+                <string name="github_marclandis" >https://github.com/MarcLandis
+                </string>
+                <string name="led_time_on" >Time Light is on
+                </string>
+                <string name="aokp_website_summary" >www.aokp.co - Find all newest releases here.
+                </string>
+                <string name="direction_south" >S
+                </string>
+                <string name="enable_favorite_toggle" >To Unlock: enable a \"favorite contact\" toggle here or in a Ribbon
+                </string>
+                <string name="title_clipboard_share" >Share to Clipboard
+                </string>
+                <string name="ad_redisplay_15m" >15 minutes
+                </string>
+                <string name="hardware_keys_menu_key_title" >Menu button
+                </string>
+                <string name="app_window" >Application window
+                </string>
+                <string name="dpi" >DPI
+                </string>
+                <string name="time_0_5_seconds" >.5 seconds
+                </string>
+                <string name="power" >Power
+                </string>
+                <string name="lockscreen_hide_initial_page_hints_title" >Hide initial page hints
+                </string>
+                <string name="github_graffixnyc" >https://github.com/graffixnyc
+                </string>
+                <string name="time_4_5_seconds" >4.5 seconds
+                </string>
+                <string name="today" >Calendar for today
+                </string>
+                <string name="ad_show_ampm_summary" >Show AM/PM indicator next to time when using 12hour format
+                </string>
+                <string name="statusbar_hide_summary" >Checking this completely hides the Statusbar
+                </string>
+                <string name="ribbon_lockscreen" >Lockscreen Ribbon
+                </string>
+                <string name="github_sethyx" >https://github.com/sethyx
+                </string>
+                <string name="time_45_minutes" >45 minutes
+                </string>
+                <string name="persist_prop_density" >Persist Density
+                </string>
+                <string name="regular_am_pm" >Regular AM/PM
+                </string>
+                <string name="enable_ribbon_text_title" >Show app name
+                </string>
+                <string name="weather_refresh_interval" >Refresh interval
+                </string>
+                <string name="installer" >Installer
+                </string>
+                <string name="ime_switcher_title" >Show IME Switcher
+                </string>
+                <string name="navring_icon" >Custom icon
+                </string>
+                <string name="select_application" >Select application
+                </string>
+                <string name="toggle_choose_fasttoggle_side_title" >Choose fast toggle side
+                </string>
+                <string name="toggles_display_close" >Close
+                </string>
+                <string name="github_willdeberry" >https://github.com/willdeberry
+                </string>
+                <string name="header_summary_battery" >@null
+                </string>
+                <string name="hardware_keys_enable_custom_title" >Allow custom buttons
+                </string>
+                <string name="hide_signal_title" >Hide signal bars
+                </string>
+                <string name="github_hashcode" >https://github.com/Hashcode
+                </string>
+                <string name="title_headphone_audio_mode" >Headphones plugged-in action
+                </string>
+                <string name="clock_options" >Clock Options
+                </string>
+                <string name="lockscreen_calendar_summary" >Show upcoming events from your calendar on the lockscreen.
+                </string>
+                <string name="toggles_enable_haptic_feedback_title" >Enable haptic feedback
+                </string>
+                <string name="header_summary_notifications" >@null
+                </string>
+                <string name="phone_mode_ui" >Phone - NavBar orients to side in landscape
+                </string>
+                <string name="toggles_layout_title" >Toggle layout
+                </string>
+                <string name="navigation_bar_color_title" >Navigation Bar color
+                </string>
+                <string name="toggle_btn_enabled_color_title" >Enabled indicator color
+                </string>
+                <string name="ribbon_long_press_title" >Swipe area longpress
+                </string>
+                <string name="phablet_mode_ui" >Phablet - NavBar stays on bottom in landscape
+                </string>
+                <string name="install_file_manager_error" >No application found to pick the zip file. Please install a file
+        manager.
+                </string>
+                <string name="weather_use_custom_location_summary" >Setting a custom location can save some battery. Otherwise
+        network-location is used to determine your location.
+                </string>
+                <string name="menu_ribbon_reset" >Reset ribbon
+                </string>
+                <string name="size_50_mb" >50mb
+                </string>
+                <string name="title_pref_powersaving_pref_mode" >Enable power saver
+                </string>
+                <string name="summary_systembar_timeout" >Timeout time for Hidden SystemBar Window
+                </string>
+                <string name="low" >low
+                </string>
+                <string name="skip_back_dclick" >Skip back (no action)
+                </string>
+                <string name="lockscreen_weather_summary" >Show Weather Information on Lockscreen. You need to enable ROMControl\'s
+        Weather service to use this
+                </string>
+                <string name="led_keep_app" >Keep
+                </string>
+                <string name="notification_show_wifi_ssid_summary" >Display the name of the currently connected Wifi network
+                </string>
+                <string name="blank" >Blank
+                </string>
+                <string name="notification_shade_clock" >Notification Shade
+                </string>
+                <string name="enable_crt_mode" >To Unlock: check \"CRT screen off\"
+                </string>
+                <string name="size_48_dp_default" >48 dp (default)
+                </string>
+                <string name="custom_bootanimation_summary" >Select a custom zip from storage to use as your new boot animation
+                </string>
+                <string name="alt_signal_summary" >Use alternate Gingerbread style signal cluster
+                </string>
+                <string name="navbar_button_cat" >Navigation Bar buttons
+                </string>
+                <string name="increasing_ring_volume_notice" >Notice:\nAs the start volume is set higher than the
+        ringer volume, the ring tone will be played using the ringer volume.
+                </string>
+                <string name="title_down_sec" >Face down seconds
+                </string>
+                <string name="drag_handle_opacity_title" >Drag Handle Opacity
+                </string>
+                <string name="summary_pref_powersaving_data_screen_off" >What to do with the data when the screen turns off
+                </string>
+                <string name="ribbon_dialog_arrange_title" >Ribbon layout
+                </string>
+                <string name="weather_loc_warning_msg" >"Obtaining location from network is currently disabled. This breaks the
+        ability to get the current weather in your current location. Please set a custom location or enable obtaining
+        your location from your network."
+                </string>
+                <string name="toggle_vibrate_title" >Vibrate on toggle click
+                </string>
+                <string name="title_power_menu" >Power Menu
+                </string>
+                <string name="title_pref_powersaving_data_screen_off_delay" >Data action delay
+                </string>
+                <string name="misc_short" >Misc
+                </string>
+                <string name="enable_clock_weekday" >Day of the week
+                </string>
+                <string name="lockscreen_calendar_close" >Close
+                </string>
+                <string name="time_45_seconds" >45 seconds
+                </string>
+                <string name="task_move_to_back_title" >Move To Back Animation
+                </string>
+                <string name="navbar_height_dialog_summary" >Please reboot for height change to be applied properly!
+                </string>
+                <string name="github_bajee11" >https://github.com/Bajee11
+                </string>
+                <string name="title_statusbar_notifications" >Notifications
+                </string>
+                <string name="title_pref_powersaving_data_screen_off" >Screen off data action
+                </string>
+                <string name="left" >Left
+                </string>
+                <string name="custom_density_dialog_summary" >"Changing your LCD density can cause unexpected app behavior. If you
+        encounter market app incompatibility please return here and restart the process from step 1."
+                </string>
+                <string name="hide_extras_summary" >Hide some SystemBar items e.g. the Compatibility Mode button
+                </string>
+                <string name="save" >Save
+                </string>
+                <string name="aokp_irc_summary" >#teamkang @ irc.freenode.net
+                </string>
+                <string name="header_summary_general_ui" >@null
+                </string>
+                <string name="navbar_longpress_menu" >Longpress: %1$s
+                </string>
+                <string name="clear_market_data_donot_cleared" >"Market data couldn't be cleared, please clear it yourself!"
+                </string>
+                <string name="circles_lock_bg_color_title" >Background color
+                </string>
+                <string name="vibrate_notif_expand_title" >Vibrate on expand
+                </string>
+                <string name="navring_target_longpress_text" >Longpress actions
+                </string>
+                <string name="collapse_bar_title" >Close notification shade
+                </string>
+                <string name="hardware_keys_action_app_switch" >Recent apps switcher
+                </string>
+                <string name="ram_bar_summary" >Shows RAM usage in the Recent Apps window
+                </string>
+                <string name="lockscreen_music_cat" >Music
+                </string>
+                <string name="interface_navring_settings_title" >Navigation Ring
+                </string>
+                <string name="spen_options" >S Pen Gestures
+                </string>
+                <string name="ribbon_icon_size_title" >Icon size
+                </string>
+                <string name="vibrations_category" >Vibrations
+                </string>
+                <string name="github_tdm" >https://github.com/tdm
+                </string>
+                <string name="weather_3200" ></string>
+                <string name="system_power_crt_mode_horizontal" >Portrait horizontal
+                </string>
+                <string name="transparency_dialog_transparency_sb_and_nv" >Statusbar and navigation bar
+                </string>
+                <string name="custom_density_title" >5. Change density to whatever you like!
+                </string>
+                <string name="current_lcd_density" >"Current LCD Density: "
+                </string>
+                <string name="toggle_user" >User
+                </string>
+                <string name="hide_navbar_timeout_3000" >3 Sec
+                </string>
+                <string name="custom_bootanimation_title" >Custom boot animation
+                </string>
+                <string name="lastapp" >Last app
+                </string>
+                <string name="weather_enable_summary" >Whether to pull weather information and display it throughout the ROM.
+                </string>
+                <string name="summary_timeout_sec" >Time the screen is off before the flip sensor is disabled
+                </string>
+                <string name="summary_headphone_audio_mode" >Define behavior of volume when headphones are plugged in
+                </string>
+                <string name="header_summary_spen" >@null
+                </string>
+                <string name="ad_pocket_mode_title" >Pocket mode
+                </string>
+                <string name="led_brightness_default" >Default brightness: 31
+                </string>
+                <string name="ring_vib" >Ring/Vib
+                </string>
+                <string name="window_opacity_title" >Window opacity
+                </string>
+                <string name="title_section1" >Section 1
+                </string>
+                <string name="title_section3" >Section 3
+                </string>
+                <string name="title_section2" >Section 2
+                </string>
+                <string name="enable_audio_mode" >To Unlock: enable \"face down audio mode\"
+                </string>
+                <string name="longpress_to_kill" >Hardware Back-to-kill
+                </string>
+                <string name="lockscreen_wallpaper_remove" >Remove lockscreen background
+                </string>
+                <string name="toggle_auto_rotate" >Auto Rotate
+                </string>
+                <string name="navbar_delete_menu" >Delete button
+                </string>
+                <string name="event" >Calendar new event
+                </string>
+                <string name="toggle_favcontact_title" >Favorite contact
+                </string>
+                <string name="custom_density_summary" >If you ever have compatibility issues with the market, be sure to return here
+        and repeat the process.
+                </string>
+                <string name="hex" >Hex:
+                </string>
+                <string name="increasing_ring_title" >Ascending ringtone
+                </string>
+                <string name="title_navring_amount" >Number of Navigation Ring targets
+                </string>
+                <string name="size_42_dp_default" >42 dp (default)
+                </string>
+                <string name="enable_toggle_tiles" >To Unlock: set \"toggle style\" to tiles
+                </string>
+                <string name="navbar_ring" >Custom Ring Targets
+                </string>
+                <string name="lock_widgets_short" >Lockscreen Widgets
+                </string>
+                <string name="size_80_mb" >80mb
+                </string>
+                <string name="ad_pocket_mode_summary" >Show active display notifications when you take the device out of your pocket.
+                </string>
+                <string name="hardware_keys_show_overflow_toast_disable" >The action overflow button may not be hidden until apps are restarted
+                </string>
+                <string name="on_the_bottom" >On the bottom
+                </string>
+                <string name="circles_lock_halo_alpha_title" >Halo alpha
+                </string>
+                <string name="custom_carrier_label_title" >Custom carrier label
+                </string>
+                <string name="title_sound" >Sound Settings
+                </string>
+                <string name="header_summary_vibrations" >@null
+                </string>
+                <string name="size_44_dp" >44 dp
+                </string>
+                <string name="text_color_title" >Color of app label text
+                </string>
+                <string name="wallpaper_open_title" >Wallpaper Open Animation
+                </string>
+                <string name="clone_title" >Choose Ribbon to clone
+                </string>
+                <string name="summary_phone_flip_mode" >Flipping your phone face-down will put your phone into Silent Mode while
+        receiving a call.
+                </string>
+                <string name="state_one_dclick" >Set to state one
+                </string>
+                <string name="timeout_spinner_title" >Ribbon auto timeout
+                </string>
+                <string name="title_show_airplane_toggle" >Airplane mode
+                </string>
+                <string name="ribbon_swipe_bottom" >Bottom swipe Ribbon
+                </string>
+                <string name="time_15_seconds" >15 seconds
+                </string>
+                <string name="increasing_ring_interval_eachring" >On each ringtone repeat
+                </string>
+                <string name="wifi_signal_color_title" >WiFi signal text color
+                </string>
+                <string name="time_1_day" >1 day
+                </string>
+                <string name="enable_signal_text" >To Unlock: set \"signal indicator style\" to display text or dBm
+                </string>
+                <string name="hardware_keys_show_overflow_summary" >Display the 3-dot overflow menu button within apps
+                </string>
+                <string name="time_8_seconds" >8 seconds
+                </string>
+                <string name="navbar_action_title" >Button %1$s action &amp; icon
+                </string>
+                <string name="right_clock" >Right clock
+                </string>
+                <string name="action_example" >Example action
+                </string>
+                <string name="menu_main_activity_change_locale" >Blank!
+                </string>
+                <string name="set" >Set
+                </string>
+                <string name="led_custom_default" >Default
+                </string>
+                <string name="title_phone_flip_mode" >Phone call silence
+                </string>
+                <string name="wallpaper_intra_open_title" >Wallpaper Intra Open Animation
+                </string>
+                <string name="advanced_settings" >Advanced settings
+                </string>
+                <string name="time_1_second" >1 second
+                </string>
+                <string name="action_long_save" >set as long action
+                </string>
+                <string name="github_qnhoang81" >https://github.com/qnhoang81
+                </string>
+                <string name="ring_vib_silent" >Ring/Vib/Silent
+                </string>
+                <string name="activity_close_title" >Activity Close Animation
+                </string>
+                <string name="time_3_seconds" >3 seconds
+                </string>
+                <string name="action_toggle_summary" >Toggle sequence from left to right
+                </string>
+                <string name="hardware_keys_show_overflow_title" >Show action overflow
+                </string>
+                <string name="hardware_keys_home_key_title" >Home button
+                </string>
+                <string name="weather" >Weather
+                </string>
+                <string name="lockscreen_calendar_hide_ongoing_title" >Hide ongoing events
+                </string>
+                <string name="icon_size_normal" >Normal
+                </string>
+                <string name="swipe_to_switch_summary" >Swipe to switch between notifications and Quick Settings
+                </string>
+                <string name="brightness_slider_summary" >When enabled, this option will allow you to change the brightness by
+        sliding your finger across the Statusbar. Note: Will not be active when auto-brightness is on
+                </string>
+                <string name="press_color_to_apply" >Press on Color to apply
+                </string>
+            </file>
+            <file
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/values/styles.xml"
+                qualifiers="" >
+                <color name="setting_separator" >#ff484848
+                </color>
+
+                <style name="settingSeparator" >
+                    <item name="android:paddingTop">
+2dp
+                    </item>
+                    <item name="android:paddingBottom">
+2dp
+                    </item>
+                    <item name="android:background">
+@color/setting_separator
+                    </item>
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+1dp
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="settingStyle"
+                    parent="AppTheme" >
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:minHeight">
+?android:attr/listPreferredItemHeight
+                    </item>
+                    <item name="android:gravity">
+center_vertical
+                    </item>
+                    <item name="android:paddingRight">
+?android:attr/scrollbarSize
+                    </item>
+                    <item name="android:background">
+?android:selectableItemBackground
+                    </item>
+                    <item name="android:selectable">
+true
+                    </item>
+                    <item name="android:focusable">
+true
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/roman/Desktop/ROMControl_v2_wip/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="/Users/roman/Desktop/ROMControl_v2_wip/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/roman/Desktop/ROMControl_v2_wip/build-types/debug/res" />
+    </dataSet>
+
+</merger>

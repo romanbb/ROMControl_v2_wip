@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DeveloperPreference">
+        <attr name="twitterHandle" format="string" />
+        <attr name="nameDev" format="string" />
+        <attr name="donateLink" format="string" />
+        <attr name="githubLink" format="string" />
+        <attr name="emailDev" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseSetting">
+        <attr name="key" format="string"/>
+        <attr name="table" format="string"/>
+        <attr name="title" format="string"/>
+        <attr name="summary" format="string"/>
+        <attr name="defaultValue" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckboxSetting">
+        <attr name="descriptionOn" format="string"/>
+        <attr name="descriptionOff" format="string"/>
+        <attr name="checkDefaultValue" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorPickerSetting">
+        <attr name="colorPickerTitle" format="string"/>
+        <attr name="colorPickerSummary" format="string"/>
+        <attr name="colorPickerDefaultValue" format="color"/>
+        <attr name="colorPickerShowAlphaSlider" format="boolean"/>
+    </declare-styleable>
+</resources>
