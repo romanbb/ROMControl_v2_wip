@@ -1,16 +1,18 @@
 package com.aokp.romcontrol.settings;
 
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.Resources.NotFoundException;
-import android.provider.Settings;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import com.aokp.romcontrol.R;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 /**
  * Base class from which all other layouts inherit from.
@@ -34,7 +36,7 @@ import com.aokp.romcontrol.R;
 public class BaseSetting extends FrameLayout {
 
     public static final String TAG = BaseSetting.class.getSimpleName();
-    
+
     public static final String NAMESPACE_ANDROID = "http://schemas.android.com/apk/res/android";
     public static final String NAMESPACE_RC = "http://schemas.android.com/apk/res/com.aokp.romcontrol";
 
@@ -98,19 +100,52 @@ public class BaseSetting extends FrameLayout {
         if (aKey == null) {
             throw new UnsupportedOperationException("No key to assign the value to!");
         }
+        // accept null strings - just set them to empty
         if (s == null) {
             s = "";
         }
-        String currentVal = getValue();
-        if(currentVal == null) {
+        String currentVal;
+        try {
+            currentVal = getValue();
+        } catch (Exception e) {
             currentVal = "";
         }
         String key = getKey();
-        Log.d(TAG, "Attempting to set key " + key + " to value: " + s + ", in table: " + getTable());
-        if ("system".equalsIgnoreCase(getTable())) {
-            Settings.System.putString(getContext().getContentResolver(), key, s);
-        } else {
-            Settings.AOKP.putString(getContext().getContentResolver(), key, s);
+        // Log.d(TAG, "Attempting to set key " + key + " to value: " + s + ", in table: " + getTable());
+
+        // dirty dirty! use reflection to allow compilation via gradle/android studio
+        try {
+            String className = "android.provider.Settings$";
+            if ("system".equalsIgnoreCase(getTable())) {
+                className += "System";
+            } else {
+                className += "AOKP";
+            }
+            Class<?> clazz = Class.forName(className);
+
+            Class[] params = new Class[3];
+            params[0] = ContentResolver.class;
+            params[1] = String.class;
+            params[2] = String.class;
+
+            Object[] paramObjects = new Object[3];
+            paramObjects[0] = getContext().getContentResolver();
+            paramObjects[1] = getKey();
+            paramObjects[2] = s;
+
+            Method method = clazz.getDeclaredMethod("putString", params);
+            method.setAccessible(true);
+
+            Boolean result = (Boolean) method.invoke(null, paramObjects);
+            // Log.d(TAG, "result: " + result.toString());
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e1) {
+            e1.printStackTrace();
         }
         if (mOnSettingChangedListener != null) {
             mOnSettingChangedListener.onSettingChanged(getTable(), key, currentVal, s);
@@ -125,12 +160,41 @@ public class BaseSetting extends FrameLayout {
         if (aKey == null) {
             throw new UnsupportedOperationException("No value to get!");
         }
-        if ("system".equalsIgnoreCase(getTable())) {
-            return Settings.System.getString(getContext().getContentResolver(), getKey());
-        } else {
-              return Settings.AOKP.getString(getContext().getContentResolver(), getKey());
+
+        // dirty dirty! use reflection to allow compilation via gradle/android studio
+        try {
+            String className = "android.provider.Settings$";
+            if ("system".equalsIgnoreCase(getTable())) {
+                className += "System";
+            } else {
+                className += "AOKP";
+            }
+            Class<?> clazz = Class.forName(className);
+            Class[] params = new Class[2];
+            params[0] = ContentResolver.class;
+            params[1] = String.class;
+
+            Object[] paramObjects = new Object[2];
+            paramObjects[0] = getContext().getContentResolver();
+            paramObjects[1] = getKey();
+
+            Method method = clazz.getDeclaredMethod("getString", params);
+            method.setAccessible(true);
+            Object result = method.invoke(null, paramObjects);
+            //Log.d(TAG, "result: " + result != null ? result : "null");
+            return (String) result;
+        } catch (NoSuchMethodException e1) {
+            e1.printStackTrace();
+        } catch (IllegalAccessException e1) {
+            e1.printStackTrace();
+        } catch (InvocationTargetException e1) {
+            e1.printStackTrace();
+        } catch (ClassNotFoundException e1) {
+            e1.printStackTrace();
         }
+        return null;
     }
+
 
     /**
      * @return the table which the setting will be saved to. Currently only 'aokp' and 'system' are supported
