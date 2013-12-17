@@ -24,34 +24,37 @@
                 android:layout_height="wrap_content"/>
 
 
-        <com.aokp.romcontrol.settings.DummySetting
+        <com.aokp.romcontrol.settings.UrlSetting
                 android:id="@+id/aokp"
                 android:title="@string/aokp_website_title"
                 android:summary="@string/aokp_website_summary"
+                aokp:url="@string/url_aokp"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.settings.DummySetting
+        <com.aokp.romcontrol.settings.UrlSetting
                 android:id="@+id/aokp_review"
                 android:title="@string/aokp_review_title"
                 android:summary="@string/aokp_review_summary"
+                aokp:url="@string/url_aokp_gerrit"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.settings.DummySetting
+        <com.aokp.romcontrol.settings.UrlSetting
                 android:id="@+id/aokp_irc"
                 android:title="@string/aokp_irc_title"
                 android:summary="@string/aokp_irc_summary"
+                aokp:url="@string/url_aokp_irc"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.settings.DummySetting
+        <com.aokp.romcontrol.settings.UrlSetting
                 android:id="@+id/aokp_dynamic_changelog"
                 android:title="@string/dynamic_changelog_title"
                 android:summary="@string/dynamic_changelog_summary"
