@@ -33,7 +33,7 @@ public class CategorySeparator extends LinearLayout {
         if (attrs != null) {
             int title = attrs.getAttributeResourceValue(BaseSetting.NAMESPACE_ANDROID, "title", 0);
             if (title > 0) {
-                TextView textView = (TextView) findViewById(android.R.id.title);
+                TextView textView = (TextView) findViewById(R.id.title);
                 textView.setText(title);
                 textView.setVisibility(View.VISIBLE);
             }

@@ -15,7 +15,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * Base class from which all other layouts inherit from.
+ * Base class from which all other layouts inherit from. Subclasses must
  * <p/>
  * <ul><b>Supported attributes (all are optional)</b>
  * <li>android:key - the key to look up the value
