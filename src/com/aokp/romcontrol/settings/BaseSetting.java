@@ -5,6 +5,7 @@ import android.content.res.Resources;
 import android.content.res.Resources.NotFoundException;
 import android.provider.Settings;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -32,6 +33,8 @@ import com.aokp.romcontrol.R;
  */
 public class BaseSetting extends FrameLayout {
 
+    public static final String TAG = BaseSetting.class.getSimpleName();
+    
     public static final String NAMESPACE_ANDROID = "http://schemas.android.com/apk/res/android";
     public static final String NAMESPACE_RC = "http://schemas.android.com/apk/res/com.aokp.romcontrol";
 
@@ -99,13 +102,18 @@ public class BaseSetting extends FrameLayout {
             s = "";
         }
         String currentVal = getValue();
+        if(currentVal == null) {
+            currentVal = "";
+        }
+        String key = getKey();
+        Log.d(TAG, "Attempting to set key " + key + " to value: " + s + ", in table: " + getTable());
         if ("system".equalsIgnoreCase(getTable())) {
-            //Settings.System.putString(getContext().getContentResolver(), s);
+            Settings.System.putString(getContext().getContentResolver(), key, s);
         } else {
-            //Settings.AOKP.put(getContext().getContentResolver(), s);
+            Settings.AOKP.putString(getContext().getContentResolver(), key, s);
         }
         if (mOnSettingChangedListener != null) {
-            mOnSettingChangedListener.onSettingChanged(getTable(), getKey(), currentVal, s);
+            mOnSettingChangedListener.onSettingChanged(getTable(), key, currentVal, s);
         }
     }
 
@@ -120,9 +128,8 @@ public class BaseSetting extends FrameLayout {
         if ("system".equalsIgnoreCase(getTable())) {
             return Settings.System.getString(getContext().getContentResolver(), getKey());
         } else {
-//              return Settings.AOKP.getString(getContext().getContentResolver(), getKey());
+              return Settings.AOKP.getString(getContext().getContentResolver(), getKey());
         }
-        return null;
     }
 
     /**

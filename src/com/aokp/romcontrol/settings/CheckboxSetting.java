@@ -67,6 +67,8 @@ public class CheckboxSetting extends BaseSetting implements OnClickListener {
         // The default value of a boolean setting is usually stored as 1 or 0, but support "true" and "false" values
         if (getDefaultValue() != null) {
             mChecked = Boolean.valueOf(getDefaultValue()) || getDefaultValue().equals("1");
+        } else {
+            mChecked = getValue().equals("1");
         }
         mCheckBox.setChecked(mChecked);
 
@@ -92,10 +94,8 @@ public class CheckboxSetting extends BaseSetting implements OnClickListener {
     }
 
     private void setChecked(boolean checked) {
-        if (checked != mChecked) {
-            setValue(checked ? "1" : "0");
-            mChecked = checked;
-        }
+        setValue(checked ? "1" : "0");
+        mChecked = checked;
         mCheckBox.setChecked(checked);
     }
 

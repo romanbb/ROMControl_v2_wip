@@ -47,6 +47,15 @@
 
     <com.aokp.romcontrol.widgets.CategorySeparator
             style="@style/defaultSize"
-            android:title="@string/header_system"/>
+            android:title="@string/header_statusbar"/>
 
+    <com.aokp.romcontrol.settings.CheckboxSetting
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:title="@string/brightness_slider_title"
+            android:summary="@string/brightness_slider_summary"
+            android:key="statusbar_enable_brightness_slider"
+            android:defaultValue="true"
+            />
 </LinearLayout>
