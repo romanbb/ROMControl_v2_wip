@@ -3,48 +3,6 @@
               xmlns:app1="http://schemas.android.com/apk/res-auto"
               style="@style/settingsFragmentStyle">
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:id="@+id/section_label"/>
-
-    <com.aokp.romcontrol.widgets.DeveloperPreference
-            app:nameDev="AOKP"
-            app:twitterHandle="AOKP_ROM"
-            app:githubLink="@string/github_aokp"
-            app:donateLink="@string/donate_aokp"
-            app:emailDev="github@aokp.co"
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-    <com.aokp.romcontrol.widgets.CategorySeparator
-            style="@style/settingSeparator"/>
-
-    <com.aokp.romcontrol.settings.CheckboxSetting
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:title="@string/battery_bar_animate_title"
-            android:summary="@string/battery_bar_animate_summary"
-            android:key="test"
-            android:defaultValue="true"
-            />
-
-    <com.aokp.romcontrol.widgets.CategorySeparator
-            style="@style/defaultSize"
-            />
-
-    <com.aokp.romcontrol.settings.ColorPickerSetting
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:key="test"
-            app1:colorPickerShowAlphaSlider="true"
-            app1:colorPickerDefaultValue="#FF0000"
-            />
-
     <com.aokp.romcontrol.widgets.CategorySeparator
             style="@style/defaultSize"
             android:title="@string/header_statusbar"/>

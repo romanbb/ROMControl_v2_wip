@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_drawer_entries">
+        <item>@string/title_about</item>
+        <item>@string/title_statusbar</item>
+    </string-array>
+</resources>

@@ -41,6 +41,7 @@
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_about">About AOKP</string>
     <string name="title_ui">General User Interface</string>
+    <string name="title_statusbar">Statusbar</string>
     <string name="title_statusbar_notifications">Notifications</string>
     <string name="title_statusbar_clock">Statusbar Clock</string>
     <string name="title_statusbar_toggles">Statusbar Toggles</string>
@@ -58,9 +59,10 @@
     <string name="title_performance">Performance Settings</string>
     <string name="title_installer">Installer Settings</string>
     <string name="title_clipboard_share">Share to Clipboard</string>
-    <string name="mgerrit_activity_name">mGerrit</string>
     <string name="ribbon_settings_title">Ribbons</string>
     <string name="title_hardware_keys">Hardware Keys</string>
+
+    <string name="mgerrit_activity_name">mGerrit</string>
 
     <!-- Header Summaries -->
     <string name="header_summary_clock">@null</string>
@@ -1225,8 +1227,8 @@
     <string name="toggles_enable_haptic_feedback_summary">Use haptic feedback when pressing toggles</string>
 
     <!-- dynamic changelog -->
-    <string name="dynamic_changelog_title">mGerrit: Dynamic ChangeLog</string>
-    <string name="dynamic_changelog_summary">Interactive changelog pulled live from our Gerrit instance</string>
+    <string name="mgerrit_changelog_title">mGerrit: Dynamic ChangeLog</string>
+    <string name="mgerrit_changelog_summary">Interactive changelog pulled live from our Gerrit instance</string>
 
     <!-- Animation Controls -->
     <string name="title_animation_controls">Animations</string>
