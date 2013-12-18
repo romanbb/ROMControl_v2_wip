@@ -17,8 +17,6 @@
 
                 android:title="@string/title_setting_enable_custom_hardware_keys"
                 android:key="hardware_key_rebinding"
-
-                table="system"
                 />
 
         <com.aokp.romcontrol.settings.SingleChoiceSetting
@@ -30,8 +28,6 @@
 
                 android:entries="@array/setting_keyActionEntries"
                 android:entryValues="@array/setting_keyActionValues"
-
-                table="system"
                 />
 
         <com.aokp.romcontrol.settings.SingleChoiceSetting
@@ -44,8 +40,6 @@
 
                 android:entries="@array/setting_keyActionEntries"
                 android:entryValues="@array/setting_keyActionValues"
-
-                table="system"
                 />
 
         <com.aokp.romcontrol.settings.SingleChoiceSetting
@@ -58,8 +52,6 @@
 
                 android:entries="@array/setting_keyActionEntries"
                 android:entryValues="@array/setting_keyActionValues"
-
-                table="system"
                 />
 
         <com.aokp.romcontrol.settings.SingleChoiceSetting
@@ -72,8 +64,6 @@
 
                 android:entries="@array/setting_keyActionEntries"
                 android:entryValues="@array/setting_keyActionValues"
-
-                table="system"
                 />
 
         <com.aokp.romcontrol.settings.SingleChoiceSetting
@@ -86,7 +76,6 @@
 
                 android:entries="@array/setting_keyActionEntries"
                 android:entryValues="@array/setting_keyActionValues"
-                table="system"
                 />
 
         <com.aokp.romcontrol.settings.SingleChoiceSetting
@@ -99,7 +88,6 @@
 
                 android:entries="@array/setting_keyActionEntries"
                 android:entryValues="@array/setting_keyActionValues"
-                table="system"
                 />
 
         <com.aokp.romcontrol.settings.SingleChoiceSetting
@@ -112,7 +100,6 @@
 
                 android:entries="@array/setting_keyActionEntries"
                 android:entryValues="@array/setting_keyActionValues"
-                table="system"
                 />
 
         <com.aokp.romcontrol.settings.SingleChoiceSetting
@@ -125,7 +112,6 @@
 
                 android:entries="@array/setting_keyActionEntries"
                 android:entryValues="@array/setting_keyActionValues"
-                table="system"
                 />
     </LinearLayout>
 </ScrollView>
