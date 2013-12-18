@@ -3,5 +3,6 @@
     <string-array name="navigation_drawer_entries">
         <item>@string/title_about</item>
         <item>@string/title_statusbar</item>
+        <item>@string/title_hardware_keys</item>
     </string-array>
 </resources>

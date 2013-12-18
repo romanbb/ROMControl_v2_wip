@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <declare-styleable name="DeveloperPreference">
-        <attr name="twitterHandle" format="string" />
-        <attr name="nameDev" format="string" />
-        <attr name="donateLink" format="string" />
-        <attr name="githubLink" format="string" />
-        <attr name="emailDev" format="string" />
+        <attr name="twitterHandle" format="string"/>
+        <attr name="nameDev" format="string"/>
+        <attr name="donateLink" format="string"/>
+        <attr name="githubLink" format="string"/>
+        <attr name="emailDev" format="string"/>
     </declare-styleable>
 
-    <declare-styleable name="BaseSetting">
-        <attr name="table" format="string"/>
-    </declare-styleable>
+    <attr name="table" format="string"/>
 
     <declare-styleable name="UrlSetting">
         <attr name="url" format="string"/>
@@ -25,4 +24,6 @@
         <attr name="colorPickerDefaultValue" format="color"/>
         <attr name="colorPickerShowAlphaSlider" format="boolean"/>
     </declare-styleable>
+
+
 </resources>

@@ -65,10 +65,15 @@ public class CheckboxSetting extends BaseSetting implements OnClickListener {
         updateSummary();
 
         // The default value of a boolean setting is usually stored as 1 or 0, but support "true" and "false" values
-        if (getValue() == null) {
+        if (getValue() == null && getDefaultValue() != null) {
+
+            // if this key is not present in the table, try to use the defualt value supplied
             mChecked = Boolean.valueOf(getDefaultValue()) || getDefaultValue().equals("1");
-        } else {
+
+        } else if (getValue() != null) {
+
             mChecked = getValue().equals("1");
+
         }
         mCheckBox.setChecked(mChecked);
 
@@ -77,7 +82,7 @@ public class CheckboxSetting extends BaseSetting implements OnClickListener {
     }
 
     private void updateSummary() {
-        if (getSummary() == null) {
+        if (getCurrentSummary() == null) {
             // no summary is set, so let's use the descriptions if we can
             if (aDescriptionOff != null || aDescriptionOn != null) {
                 setSummary(isChecked() ? aDescriptionOn : aDescriptionOff);

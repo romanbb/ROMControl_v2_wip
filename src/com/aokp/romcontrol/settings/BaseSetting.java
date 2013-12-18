@@ -7,7 +7,7 @@ import android.content.res.Resources.NotFoundException;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.aokp.romcontrol.R;
 
@@ -33,15 +33,18 @@ import java.lang.reflect.Method;
  * @see OnSettingChangedListener OnSettingChangedListener
  * an interface which will allow the callback receiver to see any changes in this setting.
  */
-public class BaseSetting extends FrameLayout {
+public class BaseSetting extends LinearLayout {
 
     public static final String TAG = BaseSetting.class.getSimpleName();
 
     public static final String NAMESPACE_ANDROID = "http://schemas.android.com/apk/res/android";
-    public static final String NAMESPACE_RC = "http://schemas.android.com/apk/res/com.aokp.romcontrol";
+    public static final String NAMESPACE_RC = "http://schemas.android.com/apk/res/res-auto";
 
     // values obtained from attributes
     private String aKey, aTable, aTitle, aSummary, aDefaultValue;
+
+    // separate in case we want to query whether one was supplied
+    private String mSummary;
 
     protected TextView mTitleTextView, mDescriptionTextView;
 
@@ -78,7 +81,7 @@ public class BaseSetting extends FrameLayout {
             aTitle = readAttrStringResource(r, attrs.getAttributeResourceValue(NAMESPACE_ANDROID, "title", 0));
             aSummary = readAttrStringResource(r, attrs.getAttributeResourceValue(NAMESPACE_ANDROID, "summary", 0));
 
-            aTable = attrs.getAttributeValue(NAMESPACE_RC, "table");
+            aTable = attrs.getAttributeValue(null, "table");
             if (aTable == null) {
                 aTable = "aokp";
             }
@@ -220,12 +223,16 @@ public class BaseSetting extends FrameLayout {
     /**
      * @return returns the current summary;
      */
-    protected final String getSummary() {
+    protected final String getCurrentSummary() {
+        return mSummary;
+    }
+
+    protected final String getDefaultSummary() {
         return aSummary;
     }
 
     protected void setSummary(String summary) {
-        aSummary = summary;
+        mSummary = summary;
         if (mDescriptionTextView != null) {
             mDescriptionTextView.setText(summary);
             if (summary == null) {

@@ -5,13 +5,15 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.provider.Settings.AOKP;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
 import com.aokp.romcontrol.fragments.AboutFragment;
+import com.aokp.romcontrol.fragments.HardwareKeysFragment;
 import com.aokp.romcontrol.fragments.MainFragment;
 
-;
 
 public class MainActivity extends Activity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -57,17 +59,19 @@ public class MainActivity extends Activity
 
         int index = position;
         switch (position) {
-            case 0:
+            default:
                 mTitle = drawerEntries[index];
+
+                // fall through
+            case 0:
                 return new AboutFragment();
 
             case 1:
-                mTitle = drawerEntries[index];
                 return new MainFragment();
 
+            case 2:
+                return new HardwareKeysFragment();
         }
-
-        return null;
     }
 
     public void restoreActionBar() {
@@ -102,7 +106,6 @@ public class MainActivity extends Activity
         }
         return super.onOptionsItemSelected(item);
     }
-
 
 
 }
