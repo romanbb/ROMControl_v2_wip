@@ -11,7 +11,12 @@ import android.view.View.OnClickListener;
 import com.aokp.romcontrol.R;
 
 /**
- * Created by roman on 12/17/13.
+ * Setting toggle which represents a boolean value
+ * <p/>
+ * <ul><b>Supported attributes (in addition to {@link BaseSetting} attributes)</b>
+ * <li>android:entryValues
+ * <li>android:entryValueEntries
+ * </ul>
  */
 public class SingleChoiceSetting extends BaseSetting implements OnClickListener {
 

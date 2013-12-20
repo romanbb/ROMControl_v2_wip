@@ -10,7 +10,11 @@ import android.view.View.OnClickListener;
 import com.aokp.romcontrol.R;
 
 /**
- * Created by roman on 12/17/13.
+ * Setting toggle which represents a boolean value
+ * <p/>
+ * <ul><b>Supported attributes (in addition to {@link BaseSetting} attributes)</b>
+ * <li>aokp:url - the url to open when clicking
+ * </ul>
  */
 public class UrlSetting extends BaseSetting implements OnClickListener {
 

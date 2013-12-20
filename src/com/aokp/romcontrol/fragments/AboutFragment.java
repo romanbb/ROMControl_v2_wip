@@ -12,9 +12,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import com.aokp.romcontrol.R;
 
-/**
- * Created by roman on 12/17/13.
- */
+
 public class AboutFragment extends Fragment {
 
     private static final String MGERRIT = "com.jbirdvegas.mgerrit";

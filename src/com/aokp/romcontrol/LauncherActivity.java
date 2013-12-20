@@ -4,9 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-/**
- * Created by roman on 12/18/13.
- */
 public class LauncherActivity extends Activity {
 
     @Override

@@ -7,9 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.aokp.romcontrol.R;
 
-/**
- * Created by roman on 12/17/13.
- */
 public class UncatagorizedSettingsFragment extends Fragment {
 
     public UncatagorizedSettingsFragment() {

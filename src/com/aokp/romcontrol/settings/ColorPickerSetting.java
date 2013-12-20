@@ -31,6 +31,12 @@ import net.margaritov.preference.colorpicker.ColorPickerDialog;
 import net.margaritov.preference.colorpicker.ColorPickerDialog.OnColorChangedListener;
 
 /**
+ * Setting toggle which represents a boolean value
+ * <p/>
+ * <ul><b>Supported attributes (in addition to {@link BaseSetting} attributes)</b>
+ * <li>aokp:colorPickerDefaultValue - default color.
+ * <li>aokp:colorPickerShowAlphaSlider - a @string reference, which will be set as the summary when disabled.
+ * </ul>
  */
 public class ColorPickerSetting extends BaseSetting implements
         OnClickListener, OnColorChangedListener {
@@ -39,8 +45,6 @@ public class ColorPickerSetting extends BaseSetting implements
     private int mValue = Color.BLACK;
     private float mDensity = 0;
     private boolean mAlphaSliderEnabled = false;
-
-    private static final String androidns = "http://schemas.android.com/apk/res/android";
 
     private EditText mEditText;
 

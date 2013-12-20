@@ -22,8 +22,8 @@ import java.lang.reflect.Method;
  * <li>android:title - a @string reference to display as the title
  * <li>android:summary - a @string reference to display as the summary
  * <li>android:defaultValue - a string (NOT a reference) which is stored as the default value.
- * <li>custom:table - refers to which table the setting key/value are referenced in. Currently only two tables are
- * supported: "aokp", and "system". Defaults to "aokp" if none is specified.
+ * <li>table - refers to which table the setting key/value are referenced in. Currently only two tables are
+ * supported: "aokp", and "system". Defaults to "aokp" if none is specified. Note that there is no namespace on this attribute.
  * </ul>
  * <p/>
  * Sub classes' implementation of setValue() should eventually call {@link #setValue(String)},

@@ -8,9 +8,6 @@ import android.view.ViewGroup;
 import com.aokp.romcontrol.R;
 import com.aokp.romcontrol.settings.SingleChoiceSetting;
 
-/**
- * Created by roman on 12/17/13.
- */
 public class HardwareKeysFragment extends Fragment {
 
     private static final int KEY_MASK_HOME = 0x01;
@@ -31,18 +28,21 @@ public class HardwareKeysFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        int mDeviceHardwareKeys = getActivity().getResources()
+        int hardwareKeyMask = getActivity().getResources()
                 .getInteger(com.android.internal.R.integer.config_deviceHardwareKeys);
-        mHasMenu = (mDeviceHardwareKeys & KEY_MASK_MENU) != 0;
-        mHasHome = (mDeviceHardwareKeys & KEY_MASK_HOME) != 0;
-        mHasAssist = (mDeviceHardwareKeys & KEY_MASK_ASSIST) != 0;
-        mHasAppSwitch = (mDeviceHardwareKeys & KEY_MASK_APP_SWITCH) != 0;
+        mHasMenu = (hardwareKeyMask & KEY_MASK_MENU) != 0;
+        mHasHome = (hardwareKeyMask & KEY_MASK_HOME) != 0;
+        mHasAssist = (hardwareKeyMask & KEY_MASK_ASSIST) != 0;
+        mHasAppSwitch = (hardwareKeyMask & KEY_MASK_APP_SWITCH) != 0;
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_hardware_keys, container, false);
 
+        /**
+         * Filter out buttons
+         */
         setting_key_home_long_press = (SingleChoiceSetting) v.findViewById(R.id.setting_key_home_long_press);
         setting_key_home_double_tap = (SingleChoiceSetting) v.findViewById(R.id.setting_key_home_double_tap);
         if (!mHasHome) {

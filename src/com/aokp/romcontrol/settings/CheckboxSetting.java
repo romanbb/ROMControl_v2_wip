@@ -12,8 +12,8 @@ import com.aokp.romcontrol.R;
  * Setting toggle which represents a boolean value
  * <p/>
  * <ul><b>Supported attributes (in addition to {@link BaseSetting} attributes)</b>
- * <li>other:descriptionOn - a @string reference, which will be set as the summary when enabled.
- * <li>other:descriptionOff - a @string reference, which will be set as the summary when disabled.
+ * <li>aokp:descriptionOn - a @string reference, which will be set as the summary when enabled.
+ * <li>aokp:descriptionOff - a @string reference, which will be set as the summary when disabled.
  * </ul>
  */
 public class CheckboxSetting extends BaseSetting implements OnClickListener {
