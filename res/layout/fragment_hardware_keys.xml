@@ -22,7 +22,7 @@
         <com.aokp.romcontrol.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/setting_home_long_press"
+                android:id="@+id/setting_key_home_long_press"
                 android:title="@string/title_hardware_keys_home_long_press"
                 android:key="key_home_long_press_action"
 
