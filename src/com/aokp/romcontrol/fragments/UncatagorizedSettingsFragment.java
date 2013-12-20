@@ -10,15 +10,15 @@ import com.aokp.romcontrol.R;
 /**
  * Created by roman on 12/17/13.
  */
-public class MainFragment extends Fragment {
+public class UncatagorizedSettingsFragment extends Fragment {
 
-    public MainFragment() {
+    public UncatagorizedSettingsFragment() {
 
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_main, container, false);
+        View v = inflater.inflate(R.layout.fragment_uncatagorized_settings, container, false);
 
         return v;
     }

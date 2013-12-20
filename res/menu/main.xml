@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.aokp.romcontrol.MainActivity" >
     <item android:id="@+id/action_show_drawer_icon"
-          android:title="@string/show_drawer_icon"
+          android:title="@string/menu_show_drawer_icon"
           android:checkable="true"
           android:orderInCategory="100"
           android:showAsAction="never" />

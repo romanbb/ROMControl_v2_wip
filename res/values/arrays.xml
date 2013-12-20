@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="navigation_drawer_entries">
-        <item>@string/title_about</item>
-        <item>@string/title_statusbar</item>
-        <item>@string/title_hardware_keys</item>
+        <item>@string/category_about_aokp</item>
+        <item>@string/category_uncatagorized</item>
+        <item>@string/category_hardware_keys</item>
     </string-array>
 </resources>

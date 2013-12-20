@@ -19,11 +19,11 @@
             android:theme="@style/AppTheme">
         <activity
                 android:name="com.aokp.romcontrol.MainActivity"
-                android:label="@string/title_activity_main" />
+                android:label="@string/rom_control" />
 
         <activity
                 android:name="com.aokp.romcontrol.LauncherActivity"
-                android:label="@string/title_activity_main">
+                android:label="@string/rom_control">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
