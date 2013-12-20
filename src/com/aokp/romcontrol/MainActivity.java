@@ -4,9 +4,9 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.ComponentName;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.provider.Settings;
-import android.provider.Settings.AOKP;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -56,7 +56,6 @@ public class MainActivity extends Activity
 
     public Fragment getFragmentToAttach(int position) {
         String[] drawerEntries = getResources().getStringArray(R.array.navigation_drawer_entries);
-
         int index = position;
         switch (position) {
             default:
@@ -71,6 +70,8 @@ public class MainActivity extends Activity
 
             case 2:
                 return new HardwareKeysFragment();
+
+
         }
     }
 
@@ -90,6 +91,11 @@ public class MainActivity extends Activity
             // decide what to show in the action bar.
             getMenuInflater().inflate(R.menu.main, menu);
             restoreActionBar();
+
+            MenuItem showDrawerIcon = menu.findItem(R.id.action_show_drawer_icon);
+
+            showDrawerIcon.setChecked(isLauncherIconEnabled());
+
             return true;
         }
         return super.onCreateOptionsMenu(menu);
@@ -101,10 +107,25 @@ public class MainActivity extends Activity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_show_drawer_icon) {
+            boolean checked = item.isChecked();
+            item.setChecked(!checked);
+            setLauncherIconEnabled(!checked);
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void setLauncherIconEnabled(boolean enabled) {
+        PackageManager p = getPackageManager();
+        int newState = enabled ? PackageManager.COMPONENT_ENABLED_STATE_ENABLED : PackageManager.COMPONENT_ENABLED_STATE_DISABLED;
+        p.setComponentEnabledSetting(new ComponentName(this, LauncherActivity.class), newState, PackageManager.DONT_KILL_APP);
+    }
+
+    public boolean isLauncherIconEnabled() {
+        PackageManager p = getPackageManager();
+        int componentStatus = p.getComponentEnabledSetting(new ComponentName(this, LauncherActivity.class));
+        return componentStatus != PackageManager.COMPONENT_ENABLED_STATE_DISABLED;
     }
 
 

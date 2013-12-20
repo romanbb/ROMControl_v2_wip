@@ -3,13 +3,8 @@
 
     <string name="app_name">ROM Control</string>
     <string name="title_activity_main">ROM Control</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_example">Example action</string>
-    <string name="action_settings">Settings</string>
 
     <!-- Header Strings -->
     <string name="user_interface">Interface</string>
@@ -1317,4 +1312,5 @@
     <string name="title_hardware_keys_switch_app">Recents</string>
     <string name="title_hardware_keys_switch_app_long_press">Recents - long press</string>
     <string name="title_setting_enable_custom_hardware_keys">Enable custom hardware keys</string>
+    <string name="show_drawer_icon">Show in app drwer</string>
 </resources>
