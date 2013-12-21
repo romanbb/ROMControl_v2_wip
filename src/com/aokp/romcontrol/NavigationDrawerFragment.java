@@ -291,6 +291,7 @@ public class NavigationDrawerFragment extends Fragment {
             for (int i = 0; i < objects.length; i++) {
                 mIconResources[i] = ids.getResourceId(i, -1);
             }
+            ids.recycle();
         }
 
         @Override

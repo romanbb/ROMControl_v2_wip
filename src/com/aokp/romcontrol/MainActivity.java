@@ -14,8 +14,6 @@ import com.aokp.romcontrol.fragments.AboutFragment;
 import com.aokp.romcontrol.fragments.HardwareKeysFragment;
 import com.aokp.romcontrol.fragments.UncatagorizedSettingsFragment;
 
-import java.util.HashMap;
-
 
 public class MainActivity extends Activity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -30,17 +28,16 @@ public class MainActivity extends Activity
      */
     private CharSequence mTitle;
 
-    static HashMap<Integer, Fragment> sFragmentCache = new HashMap<Integer, Fragment>();
-
     private Fragment mSelectedFragment;
     private String[] mDrawerEntries;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
         mDrawerEntries = getResources().getStringArray(R.array.navigation_drawer_entries);
 
+        setContentView(R.layout.activity_main);
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();

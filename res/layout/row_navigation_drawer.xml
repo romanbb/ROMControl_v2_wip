@@ -23,6 +23,6 @@
             android:id="@+id/icon"
             android:layout_height="match_parent"
             android:layout_width="@dimen/navigation_drawer_icon_width"
-            android:cropToPadding="false"/>
+            />
 
 </LinearLayout>
