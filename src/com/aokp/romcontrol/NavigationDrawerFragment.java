@@ -3,8 +3,10 @@ package com.aokp.romcontrol;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Fragment;
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -18,7 +20,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 ;
 
@@ -84,30 +88,30 @@ public class NavigationDrawerFragment extends Fragment {
     }
 
     @Override
-    public void onActivityCreated (Bundle savedInstanceState) {
+    public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         // Indicate that this fragment would like to influence the set of actions in the action bar.
         setHasOptionsMenu(true);
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
-        mDrawerListView = (ListView) inflater.inflate(
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        ViewGroup root = (ViewGroup) inflater.inflate(
                 R.layout.fragment_navigation_drawer, container, false);
+        mDrawerListView = (ListView) root.findViewById(R.id.list);
         mDrawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 selectItem(position);
             }
         });
-        mDrawerListView.setAdapter(new ArrayAdapter<String>(
+        mDrawerListView.setAdapter(new NavigationDrawerAdapter(
                 getActionBar().getThemedContext(),
-                android.R.layout.simple_list_item_activated_1,
-                android.R.id.text1,
-                getDrawerEntries()));
+                getResources().getStringArray(R.array.navigation_drawer_entries),
+                R.array.navigation_drawer_icons
+        ));
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
-        return mDrawerListView;
+        return root;
     }
 
     public boolean isDrawerOpen() {
@@ -273,5 +277,45 @@ public class NavigationDrawerFragment extends Fragment {
          * Called when an item in the navigation drawer is selected.
          */
         void onNavigationDrawerItemSelected(int position);
+    }
+
+    public static class NavigationDrawerAdapter extends ArrayAdapter<String> {
+
+        int[] mIconResources;
+
+        public NavigationDrawerAdapter(Context context, String[] objects, int iconResource) {
+            super(context, R.layout.row_navigation_drawer, objects);
+
+            mIconResources = new int[objects.length];
+            TypedArray ids = context.getResources().obtainTypedArray(iconResource);
+            for (int i = 0; i < objects.length; i++) {
+                mIconResources[i] = ids.getResourceId(i, -1);
+            }
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+
+            NavRowViewHolder row;
+            if (convertView == null) {
+                convertView = View.inflate(getContext(), R.layout.row_navigation_drawer, null);
+                row = new NavRowViewHolder();
+                row.text = (TextView) convertView.findViewById(R.id.text1);
+                row.icon = (ImageView) convertView.findViewById(R.id.icon);
+                convertView.setTag(row);
+            } else {
+                row = (NavRowViewHolder) convertView.getTag();
+            }
+
+            row.text.setText(getItem(position));
+            row.icon.setImageResource(mIconResources[position]);
+
+            return convertView;
+        }
+    }
+
+    static class NavRowViewHolder {
+        TextView text;
+        ImageView icon;
     }
 }

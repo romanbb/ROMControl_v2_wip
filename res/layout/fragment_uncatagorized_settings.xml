@@ -3,7 +3,7 @@
 
     <com.aokp.romcontrol.widgets.CategorySeparator
             style="@style/defaultSize"
-            android:title="@string/category_uncatagorized"/>
+            android:title="@string/category_general"/>
 
     <com.aokp.romcontrol.settings.CheckboxSetting
             android:layout_width="match_parent"

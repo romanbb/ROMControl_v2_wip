@@ -7,9 +7,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!-- Header Strings -->
-    <string name="category_uncatagorized">Uncatagorized</string>
+    <string name="category_general">General</string>
     <string name="category_statusbar">Statusbar</string>
-    <string name="category_about_aokp">About AOKP</string>
+    <string name="category_about_aokp">About</string>
     <string name="category_hardware_keys">Hardware Keys</string>
 
     <!-- menu items -->
