@@ -11,8 +11,9 @@
     <string name="category_statusbar">Statusbar</string>
     <string name="category_about_aokp">About</string>
     <string name="category_hardware_keys">Hardware Keys</string>
+    <string name="category_installer">Installer</string>
 
-    <!-- menu items -->
+    <!-- Menu Items -->
     <string name="menu_show_drawer_icon">Show in app drawer</string>
 
     <!-- About -->
@@ -62,7 +63,7 @@
     <string name="url_aokp_gerrit">http://gerrit.aokp.co</string>
     <string name="url_aokp_irc">http://webchat.freenode.net/?channels=teamkang</string>
 
-    <!-- dynamic changelog -->
+    <!-- Dynamic Changelog -->
     <string name="mgerrit_changelog_title">mGerrit: Dynamic ChangeLog</string>
     <string name="mgerrit_changelog_summary">Interactive changelog pulled live from our Gerrit instance</string>
 
@@ -94,4 +95,12 @@
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charger</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if a charger is plugged in or unplugged</string>
 
+    <!-- Installer -->
+    <string name="persist_options">Persistence</string>
+    <string name="title_setting_persist_enable">Enable Persistence</string>
+    <string name="persist_enable_summary">Enable data to persist across installs</string>
+    <string name="title_setting_persist_prop_density">Persist Density</string>
+    <string name="persist_prop_density_summary">Persist LCD density</string>
+    <string name="title_setting_persist_file_hosts">Persist Hosts</string>
+    <string name="persist_file_hosts_summary">Persist hosts file</string>
 </resources>
