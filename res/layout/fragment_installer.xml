@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout style="@style/settingsFragmentStyle">
+
+        <com.aokp.romcontrol.widgets.CategorySeparator
+                android:title="@string/category_installer"
+                style="@style/defaultSize"/>
+
+        <com.aokp.romcontrol.settings.CheckboxSetting
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:title="@string/title_setting_persist_enable"
+                android:summary="@string/persist_enable_summary"
+                android:key="enable_persist"
+                />
+
+        <com.aokp.romcontrol.settings.CheckboxSetting
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dependency="enable_persist"
+                android:title="@string/title_setting_persist_prop_density"
+                android:summary="@string/persist_prop_density_summary"
+                android:key="persist_prop_density"
+                />
+
+        <com.aokp.romcontrol.settings.CheckboxSetting
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dependency="enable_persist"
+                android:title="@string/title_setting_persist_file_hosts"
+                android:summary="@string/persist_file_hosts_summary"
+                android:key="persist_file_hosts"
+                />
+
+    </LinearLayout>
+</ScrollView>
