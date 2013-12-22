@@ -4,6 +4,7 @@ import com.aokp.romcontrol.util.CMDProcessor;
 import com.aokp.romcontrol.util.CommandResult;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -170,13 +171,7 @@ public class InstallerFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle(R.string.title_installer);
-        // Load the preferences from an XML resource
-        addPreferencesFromResource(R.xml.prefs_installer);
-
-        PreferenceScreen prefs = getPreferenceScreen();
-
-        loadPrefs();
+        setTitle(R.string.category_installer);
 
         mPrefPersistEnable = (CheckBoxPreference)findPreference(PREF_PERSIST_ENABLE);
         mPrefPersistEnable.setChecked(mPersistEnable);
